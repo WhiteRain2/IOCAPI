@@ -1,0 +1,1001 @@
+id,title,answer
+0,"What is faster, Regex or if compares - Java",['java.lang.String.equals']
+1,Get min and max String of list,"['java.util.Collections.max', 'java.util.stream.Collectors.minBy', 'java.util.Optional.get', 'java.util.stream.Collectors.maxBy', 'java.util.Collections.min']"
+2,Java string split with multiple delimeters,['java.lang.String.split']
+3,Finding memory leak By JProfiler,['java.util.HashMap.put']
+4,How can I start a thread from another and restart a thread after execution?,"['java.lang.Thread.join', 'java.util.concurrent.Future.get']"
+5,Explaining hashcode to Vector,"['java.util.List.hashCode', 'java.lang.Object.hashCode', 'java.util.Arrays.asList']"
+6,Collision detection Graphics 2D,['java.awt.Rectangle.intersects']
+7,perform task at a user defined time,['javax.swing.SpinnerDateModel.constructor']
+8,Copy int array to array,['java.util.Arrays.copyOf']
+9,"How to store int from file, to Arraylist using StringTokenizer in java?",['java.lang.String.split']
+10,JFrame will not repaint until after try/catch completes,['javax.swing.JComponent.repaint']
+11,From for loop to Java 8 Stream example,"['java.util.stream.Stream.findAny', 'java.util.Optional.orElse', 'java.util.Collection.stream', 'java.util.stream.Stream.findFirst', 'java.util.stream.Stream.filter', 'java.util.Collection.parallelStream']"
+12,Read/convert an InputStream to a String,"['java.io.InputStream.transferTo', 'java.io.ByteArrayOutputStream.toString']"
+13,Convert millisecond String to Date in Java,"['java.lang.Long.parseLong', 'java.time.Instant.ofEpochMilli', 'java.time.ZonedDateTime.toString']"
+14,Java - Sorting Array by time,['java.util.Arrays.sort']
+15,How to change menu title color on mouse over (in java Swing)?,['javax.swing.UIManager.put']
+16,TreeMap sort by value,['java.util.Map.entrySet']
+17,How to check if a string contains all the letters of the alphabet?,"['java.lang.String.split', 'java.util.List.remove', 'java.util.Arrays.asList']"
+18,Generics trouble implementing Map.entrySet(),['java.util.Map.entrySet']
+19,How can I Listen for Keyboard input without Text Field Java,"['javax.swing.text.Document.addDocumentListener', 'javax.swing.JTextField.addActionListener']"
+20,Difference between @ and # in Java toString output?,['java.lang.Object.equals']
+21,Returning the value that for statement prints,['java.lang.Integer.parseInt']
+22,"Weird exception ""Invalid receiver type class java.lang.Object; not a subtype of ...""",['java.util.stream.Stream.of']
+23,How to read a line in BufferedInputStream?,"['java.io.BufferedReader.readLine', 'org.omg.CORBA.portable.InputStream.read']"
+24,Difference between CopyOnWriteArrayList and synchronizedList,"['java.util.Collections.synchronizedList', 'java.util.Collections.synchronizedMap']"
+25,Can someone explain how to setText from a static using my example?,"['javax.swing.SwingUtilities.invokeAndWait', 'javax.swing.SwingUtilities.invokeLater']"
+26,How do I find out which JAXP implementation is in use and where it was loaded from?,"['javax.xml.parsers.DocumentBuilderFactory.newInstance', 'java.lang.System.setProperty']"
+27,Dateformat is not return true time - Java,"['java.text.DateFormat.setTimeZone', 'java.util.TimeZone.setDefault']"
+28,"Does a lock on class, locks class variables too? - java",['java.util.Collections.synchronizedList']
+29,how can i extract using regex in java,['java.lang.String.split']
+30,PriorityQueue is Java does not order descending with custom comparator,['java.util.Collections.sort']
+31,Using Swing Worker To Load Images,['java.awt.Toolkit.createImage']
+32,"Get the week of year, with sunday as the first day of the week using java calendar","['java.util.Calendar.setMinimalDaysInFirstWeek', 'java.util.Calendar.getInstance']"
+33,WHats wrong with this code for palindrome of a string array,['java.lang.String.equals']
+34,Proper way to start new thread from service layer using spring,['java.util.concurrent.Executors.newSingleThreadExecutor']
+35,Outline to blocks in XY Block renderer jfreechart,['java.awt.Color.getHSBColor']
+36,Date() is showing error regarding mismatched parameters,"['java.time.LocalDate.now', 'java.time.format.DateTimeFormatter.is', 'java.time.LocalDate.format']"
+37,Is it good practice for a class to implement itself in a generic interface?,['java.util.Collections.sort']
+38,Unable to add to JFrame after removeAll(),['javax.swing.JFrame.remove']
+39,Alternative to File.deleteOnExit() in Java NIO?,"['java.nio.file.Files.createTempFile', 'java.nio.file.Files.newOutputStream', 'java.nio.file.StandardOpenOption.DELETE', 'java.io.File.deleteOnExit', 'java.lang.Runtime.addShutdownHook', 'java.lang.Runtime.getRuntime']"
+40,Crawling & parsing results of querying google-like search engine,['java.lang.Integer.parseInt']
+41,Can't I put a null in a SortedSet?,['java.util.TreeSet.add']
+42,"What compile-time type must I assign to receieve a return value of java.util.Map<TextAttribute, ?>",['java.awt.Font.getAttributes']
+43,How can I not use argument to pass values between methods of different classes,['java.lang.System.setProperty']
+44,How to insert clickable text into a JTextPane?,"['javax.swing.text.html.HTMLEditorKit.insertHTML', 'javax.swing.text.Document.insertString']"
+45,Transfering uintN data types from C to Java (Socket Programing),['org.omg.CORBA.portable.InputStream.read']
+46,java ms access connection,['java.sql.ResultSet.next']
+47,is it always safe to use the first element of the array returned by split?,['java.lang.String.split']
+48,get and write line with some number,"['javax.swing.JTextArea.getLineCount', 'javax.swing.JTextArea.getLineStartOffset', 'javax.swing.JTextArea.replaceRange', 'javax.swing.JTextArea.getLineEndOffset']"
+49,Java AES-128 encryption of 1 block (16 byte) returns 2 blocks(32 byte) as output,['javax.crypto.Cipher.getInstance']
+50,Does the stream.spliterator() close the stream?,"['java.util.stream.Stream.of', 'java.util.stream.BaseStream.close', 'java.nio.file.Files.lines', 'java.util.stream.BaseStream.spliterator', 'java.util.stream.package-summary.StreamOps']"
+51,iterate through all the values of a key in hashtable java,['java.util.Map.containsKey']
+52,How to quickly find added / removed files?,['java.io.File.listFiles']
+53,How to read fie in different encoding functions?,['java.nio.charset.Charset.availableCharsets']
+54,LinkedList as value for Hashtable,['java.util.Arrays.asList']
+55,How many people can connect to ServerSocket?,['java.net.ServerSocket.accept']
+56,How to set up output files based on key names?,['java.io.FileWriter.FileWriter']
+57,ObjectInputStream throws EOFException on client-server setup,['java.lang.System.exit']
+58,RequestMapping with slashes and dot,['java.lang.String.split']
+59,"What would you use a ""Future"" for in App Engine?",['java.util.concurrent.Future.get']
+60,How to create a static Map of String -> Array,['java.util.Collections.unmodifiableMap']
+61,Can you inject a custom exception (or its provider)?,['java.lang.Exception.Exception']
+62,BufferedReader will not read final line of input,['java.io.BufferedReader.readLine']
+63,How to Convert Int to Unsigned Byte and Back,"['java.lang.Byte.toUnsignedInt', 'java.lang.Integer.parseInt', 'java.lang.Integer.toString']"
+64,How to get Java to wait for user Input,['java.util.Scanner.nextLine']
+65,Java exception from scanning a file that was imported,['java.util.Scanner.next']
+66,"Java - GUI - Random Characters in Different Sizes, Colors",['java.awt.GraphicsEnvironment.getAvailableFontFamilyNames']
+67,Regex for floor in address,['java.lang.String.matches']
+68,Handling time ranges in Java,['java.util.Date.compareTo']
+69,How to send all byte into single array and later xor between the bytes?,['java.nio.ByteBuffer.put']
+70,java.util.Calendar confusion,['java.util.Calendar.getInstance']
+71,Problems with Java garbage collector and memory,['java.lang.Object.finalize']
+72,Why we need to use Thread.sleep() instead Sleep() in Java?,['java.lang.Thread.sleep']
+73,"Why has Java 8 no ""myArray.stream()"" function?",['java.util.Arrays.stream']
+74,Java: Why doesn't JTable use TableCellEditor?,['javax.swing.JTable.setDefaultEditor']
+75,Runtime exception while creating Blob,['java.sql.Connection.createBlob']
+76,Chaining Strings in Java,['java.lang.String.concat']
+77,Combining CompletableFutures into a tree-like Structure,['java.util.concurrent.CompletableFuture.supplyAsync']
+78,java timers: how to select + what are the limitations?,['java.lang.System.nanoTime']
+79,Convert Point coordinates to Screen coordinates in JavaFX?,['javafx.scene.Node.localToScreen']
+80,ImageWriteParam set compression quality not working,['javax.imageio.ImageWriter.write']
+81,Java string comparison is not working when concatenated with number,"['java.lang.String.intern', 'java.lang.String.equals']"
+82,How do I stop Ant from hanging after executing a java program that attempted to interrupt a thread (and failed) and continued?,"['java.lang.Thread.sleep', 'java.lang.Object.wait', 'java.lang.Thread.interrupted', 'java.lang.Thread.interrupt']"
+83,Java Date in hibernate mapping from DB (timezone issue and daylight savings),"['java.util.Calendar.getTime', 'java.util.Calendar.setTime']"
+84,Equals method not working well with Throwable,['java.lang.Object.equals']
+85,How do I trigger the default signal handling behavior?,['java.lang.System.exit']
+86,Thread sleep and thread join,['java.lang.Thread.sleep']
+87,Locating resources within a jar package,['java.lang.ClassLoader.getResourceAsStream']
+88,Sort JTable as I like,['javax.swing.DefaultRowSorter.setComparator']
+89,How to convert binary string value to decimal,['java.lang.Integer.parseInt']
+90,Set and get cursor position? JAVA w/ OpenGL,['java.awt.Robot.mouseMove']
+91,Convert current datetime to long in Java,['java.lang.System.currentTimeMillis']
+92,Java List toArray(T[] a) implementation,['java.util.List.toArray']
+93,Most efficient way to order an array of Strings by frequency,['java.util.Collections.sort']
+94,Generate MD5 String in java,['java.lang.String.getBytes']
+95,How do I remove the blue border highlight that appears when selecting a tab in a JTabbedPane?,['javax.swing.UIManager.setLookAndFeel']
+96,"How do I draw squares on top of applications, get coordinates/size of the squares, and check to see if the image beneath the squares has changed?","['java.awt.Robot.createScreenCapture', 'java.awt.image.BufferedImage.getRGB']"
+97,How can I use html styles in strings with format arguments?,['java.lang.String.format']
+98,Ignore parentheses with string tokenizer?,"['java.lang.String.split', 'java.lang.String.substring']"
+99,contains method for list of array of bytes,['java.util.Arrays.equals']
+100,Concurrency: Cache Coherence Issue or Compiler Optimization?,['java.io.PrintStream.println']
+101,ArrayList desending order using compare method,"['java.util.Collections.reverseOrder', 'java.util.Collections.reverse', 'java.util.Collections.sort']"
+102,How to remove extra spaces from arraylist,['java.util.AbstractCollection.toString']
+103,Synchronized block - Java,['java.lang.Thread.sleep']
+104,Get the last three chars from any string - Java,"['java.lang.String.getChars', 'java.lang.String.substring']"
+105,Should this be volatile or is the result unpredictable?,"['java.lang.Thread.interrupted', 'java.lang.Thread.interrupt']"
+106,GWT interaction with external standalone application,['java.lang.Runtime.getRuntime']
+107,Prevent values going outside a specified range,"['java.lang.Math.max', 'java.lang.Math.min']"
+108,How do I remove the A on the top of the JTable inside a JScrollPane?,['javax.swing.table.AbstractTableModel.getColumnName']
+109,"Which type safety would have lost, had Generics supported the sub-typing?",['java.lang.Long.reverse']
+110,ObjectInputStream won't initialize when using BufferedOutputStreams,['java.io.ObjectOutputStream.flush']
+111,How to handle if a sql query finds nothing? Using resultset in java,['java.sql.ResultSet.isBeforeFirst']
+112,Can some one please explain what application actually means in this hashcode() contract?,['java.lang.Object.equals']
+113,extracting specific but unknown values from a string in Java,['java.util.regex.Matcher.group']
+114,working with Swing timer : creating mess,"['java.awt.EventQueue.invokeLater', 'java.awt.EventQueue.invokeAndWait']"
+115,Java: Make one item of a jcombobox unselectable(like for a sub-caption) and edit font of that item,"['javax.swing.ComboBoxModel.setSelectedItem', 'javax.swing.ListCellRenderer.getListCellRendererComponent']"
+116,AsynchronousServerSocketChannel finally block never executed,"['java.lang.Thread.currentThread', 'java.util.concurrent.package-summary.MemoryVisibility']"
+117,Getting location of cell in JXTreeTable,['javax.swing.SwingUtilities.convertRectangle']
+118,Java - Vector vs ArrayList performance - test,['java.lang.System.currentTimeMillis']
+119,Split string and calculate power of the 2 substrings,"['java.lang.String.split', 'java.util.regex.Pattern.quote']"
+120,reading csv file in java start from line3,['java.lang.String.split']
+121,Is string interning really useful?,['java.lang.String.intern']
+122,How to create a Pattern to find sequences of *.ABS?,['java.lang.String.endsWith']
+123,"What happens when I call ""BufferStrategy.show()""?",['java.awt.image.BufferStrategy.show']
+124,"Integers.parseint( on scanner input ), also i want to make limits so user can only input number in range from 0 to 100",['java.lang.Integer.parseInt']
+125,Java Lambda - finding if any String element of list matches partially with any element of another list,['java.lang.String.contains']
+126,Capture screen with mouse pointer using xuggler,['java.awt.MouseInfo.getPointerInfo']
+127,Java String to byte conversion is different,['java.lang.Byte.decode']
+128,"Take string ""asdxyz\n"" and replace \n with the ascii value",['java.lang.String.replace']
+129,Convert Stream to IntStream,['java.lang.Integer.compareTo']
+130,Simple For loop - executes too many times IMO,['java.lang.System.lineSeparator']
+131,LinkedBlockingQueue - java - queue full,['java.util.concurrent.LinkedBlockingQueue.put']
+132,Regex: String.split and Pattern.matches does not agree with each other,['java.util.regex.Pattern.matches']
+133,How to check if string matches date pattern using time API?,"['java.time.format.DateTimeFormatter.parseUnresolved', 'java.time.LocalDate.from', 'java.time.format.DateTimeFormatter.parse']"
+134,How to add the value of a array into a ArrayList in stead of the location of that array?,"['java.util.Arrays.copyOf', 'java.lang.System.arraycopy']"
+135,"Reading from URL, store data as double?",['java.lang.Double.parseDouble']
+136,Converting a sentence string to a string array of words in Java,"['java.text.BreakIterator.getWordInstance', 'java.lang.String.split']"
+137,How to avoid hard code full path in Paths#get method,['java.nio.file.Paths.get']
+138,Garbage collector not working in java?,['java.lang.System.gc']
+139,Append a LinkedHashSet to a TextArea line by line in Java 8,"['java.lang.String.join', 'java.lang.System.lineSeparator']"
+140,RSA SHA256 signing in iOS and verification on Java,['java.security.Signature.sign']
+141,Java - Looping Number Strings,['javax.swing.JOptionPane.showMessageDialog']
+142,Access stacktraces with good performance?,['java.lang.Thread.currentThread']
+143,Prevent multiple asynchronous calls from being in flight simultaneously without blocking,['java.lang.Thread.currentThread']
+144,Erlang Process vs Java Thread,"['java.lang.Thread.stop', 'java.lang.Math.random', 'java.lang.Thread.setDaemon', 'java.lang.Thread.run']"
+145,"What is the new way of getting all methods of a class, including inherited default methods of Java 8?",['java.lang.Class.getMethods']
+146,"How do I create a parent-last / child-first ClassLoader in Java, or How to override an old Xerces version that was already loaded in the parent CL?","['java.lang.Thread.currentThread', 'java.lang.Class.forName']"
+147,Use Apache CSVParser get number not in scientific notation,['java.lang.Double.parseDouble']
+148,Set JLabel Visible when JButton is clicked in actionPerformed,['javax.swing.SwingUtilities.invokeLater']
+149,Invoking toString via method reference in Java 8,['java.util.Arrays.asList']
+150,Why does the toString method in java not seem to work for an array,"['java.lang.Object.toString', 'java.util.Arrays.toString']"
+151,Converting ArrayList<Integer> into int[] won't work in Java,['java.util.Arrays.toString']
+152,Closing the Selector when server is shutting down,"['java.nio.channels.Selector.isOpen', 'java.nio.channels.Selector.close']"
+153,Memory Address as Hash in HashTable. Why can't HasTable use actual memory address of the Key as Hash?,['java.lang.Object.hashCode']
+154,Why does parseInt warn of using valueOf,['java.lang.Integer.valueOf']
+155,"Java SimpleDateFormat returning null, but only on second call","['java.text.SimpleDateFormat.parse', 'java.text.DateFormat.parse']"
+156,SimpleDateFormat format wrong values,['java.sql.Date.Date']
+157,JAVA - Binary search - return index of key,"['java.lang.String.compareTo', 'java.util.Arrays.sort']"
+158,Class cast exception from Double to double,"['java.lang.Class.isInstance', 'java.lang.Double.doubleValue', 'java.lang.Integer.intValue']"
+159,Executing external programs via commandline in a Grails application,['java.lang.Runtime.exec']
+160,A good method for conflating queue entries,"['java.util.HashMap.put', 'java.util.Collections.synchronizedMap']"
+161,Double floating-point precision in Java,['java.lang.Math.round']
+162,Processing backspace in Java Swing,['javax.swing.event.DocumentListener.removeUpdate']
+163,Adding JPanels to regions other than CENTER,['javax.swing.JComponent.setPreferredSize']
+164,Why do System.nanoTime() and System.currentTimeMillis() drift apart so rapidly?,"['java.lang.System.currentTimeMillis', 'java.lang.System.nanoTime']"
+165,Get a related class via signature java,['java.lang.Class.forName']
+166,Should Swing GUI application be controlled from Event Dispatcher or main thread?,['java.awt.EventQueue.invokeLater']
+167,Is there a safe way to make a HashSet<int[]> without manually wrapping it in another object?,['java.util.Collections.synchronizedSet']
+168,"Enum.valueOf(Class<T> enumType, String name) question","['java.lang.Class.getEnumConstants', 'java.lang.Enum.valueOf']"
+169,What is the difference between append and write methods of java.io.writer?,['java.io.Writer.append']
+170,What condition does while(true) test? When is it true and false?,['java.lang.System.exit']
+171,how come Thread class called inside another class?,['java.lang.Thread.sleep']
+172,Sorting based on value of object,['java.util.Arrays.sort']
+173,Simple calculate using inheritance and Scanner how i handle these Exceptions?,"['java.util.Scanner.nextShort', 'java.util.Scanner.hasNext']"
+174,How to timeout a thread,"['java.lang.Runnable.run', 'java.util.concurrent.Callable.call', 'java.lang.Thread.sleep', 'java.lang.Thread.interrupted', 'java.util.concurrent.Executors.newCachedThreadPool', 'java.util.concurrent.Future.get']"
+175,How to remove all null elements from a ArrayList or String Array?,"['java.util.Collections.singleton', 'java.util.Arrays.asList']"
+176,How to eliminate repeat code in a for-loop?,['java.util.Collections.synchronizedList']
+177,Regex pattern for string not bounded by character,['java.util.regex.Pattern.special']
+178,Alternative for deprecated GWT Textbox setKey(char) method,['java.lang.String.toUpperCase']
+179,How do I generate a 160 bit prime number in java?,['java.math.BigInteger.probablePrime']
+180,sorting positive integers in unsorted array,"['java.util.Arrays.copyOf', 'java.util.Collections.sort', 'java.util.Arrays.binarySearch', 'java.util.Arrays.sort']"
+181,JTree of object type displays some properties of the object but returns the whole object when selected,['javax.swing.tree.TreePath.getLastPathComponent']
+182,Node array toString Java,['java.util.Arrays.deepToString']
+183,"In Java, get all weekend dates in a given month",['java.time.temporal.TemporalAdjuster.is']
+184,storing string in an integer array.,['java.lang.Integer.parseInt']
+185,What could lead to the creation of false EOF in a GZip compressed data stream,['org.omg.CORBA.portable.InputStream.read']
+186,Can one compare java.lang.Class objects with == in Java?,['java.lang.Class.isAssignableFrom']
+187,How to fill the contents of a dynamic array with a constant data,['java.util.Arrays.fill']
+188,Java String to enum,['java.lang.Enum.valueOf']
+189,Java Generics : Is any meta information about the generic type preserved at runtime as well?,"['java.lang.Class.newInstance', 'java.lang.Class.getGenericSuperclass']"
+190,Would there be a cleaner/better way to write this,['java.lang.Integer.valueOf']
+191,How to set nice float value using Apache POI?,['java.math.BigDecimal.setScale']
+192,Controlling thread using wait() and notify(),['java.util.concurrent.Executors.newSingleThreadExecutor']
+193,How can i get Class from Generic Type,['java.lang.Class.forName']
+194,JList adding and removing items (Netbeans),['javax.swing.DefaultListModel.addElement']
+195,Random integers - Both positive and negative,['java.util.Random.nextInt']
+196,Insertion sort with an array of objects?,['java.lang.Comparable.compareTo']
+197,ArrayIndexOutOfBoundsException error but I think the code is okay,['java.sql.ResultSet.getObject']
+198,"java.lang.NumberFormatException: For input string: ""null""",['java.lang.Float.valueOf']
+199,Sharing Components with multiple containers,['javax.swing.JComponent.setComponentPopupMenu']
+200,How JVM executes math calculations faster second time onwards?,['java.lang.Math.log']
+201,JList resize after add element,['javax.swing.JList.setPrototypeCellValue']
+202,Any way to convert Java constants in a Constants class to an iterative form in another?,['java.lang.Class.getFields']
+203,can marker interface like serializable contain default methods?,['java.lang.Class.isAssignableFrom']
+204,Delete all files not modified in last ten days,"['java.util.Calendar.getTimeInMillis', 'java.io.File.lastModified']"
+205,Large amount of constants in Java,"['java.lang.ClassLoader.getResourceAsStream', 'java.lang.Class.getResourceAsStream']"
+206,java performance degrading due to arraylist of size more than 6000,['java.lang.System.nanoTime']
+207,"How do i search through an XML file in Java, and then output the XML files names?","['java.io.BufferedReader.readLine', 'org.w3c.dom.Node.getNodeValue', 'org.w3c.dom.Document.getElementsByTagName', 'org.xml.sax.helpers.XMLReaderFactory.createXMLReader']"
+208,Find a complete word in a string java,['java.lang.String.split']
+209,Any simple Java way to pass parts of a hashmap to another hashmap?,['java.lang.Integer.valueOf']
+210,LocalDateTime.parse() with a pattern only numbers,['java.time.format.DateTimeFormatterBuilder.appendValue']
+211,Dependency Determination in Runtime,['java.lang.Class.forName']
+212,How to compare two calendars to check if the event happened today?,['java.util.Calendar.get']
+213,How to get float from unsigned bytes in Java?,['java.lang.Float.intBitsToFloat']
+214,Process.waitFor hangs even though stdout and stderr get read,['java.lang.Process.waitFor']
+215,Transferring file in client-server program but all bytes not being transmitted,['java.nio.file.Files.copy']
+216,read element from an array in java,"['java.lang.reflect.Array.get', 'java.lang.reflect.Array.getLength']"
+217,What method should I use to replace text within a String,"['java.lang.String.replace', 'java.lang.String.replaceAll']"
+218,How to modify a Collection while iterating using for-each loop without ConcurrentModificationException?,['java.util.Iterator.remove']
+219,Why does casting based on Class.class work but not getClass?,"['java.lang.Class.cast', 'java.lang.Object.getClass']"
+220,"StringBuilder appends null as ""null""","['java.lang.StringBuilder.append', 'java.lang.String.valueOf']"
+221,Can i remove an element while enumerating through a Properties object?,"['java.util.Map.entrySet', 'java.util.Set.iterator', 'java.util.Iterator.remove']"
+222,Java: Run Script After Timed Interval,"['java.lang.System.currentTimeMillis', 'java.lang.Thread.sleep']"
+223,new object is created or not?,"['java.lang.String.intern', 'java.lang.Integer.valueOf']"
+224,How to split file content line by line and save to List,['java.nio.file.Files.lines']
+225,JIT Optimization and Weak References,['java.util.Collections.sort']
+226,"Java program crashes, when giving a decimal point, but works with int","['java.lang.Double.parseDouble', 'java.lang.Float.parseFloat']"
+227,"Deleting a file, opended by an external application, after closing it",['java.io.File.createTempFile']
+228,Best way to convert Java SQL Date from yyyy-MM-dd to dd MMMM yyyy format,"['java.sql.PreparedStatement.setObject', 'java.sql.Date.toLocalDate', 'java.sql.ResultSet.getObject']"
+229,How to merge multiple (arbitrary number of) Set<String> into one in Java?,['java.util.Set.addAll']
+230,Multithreading program not working,['java.lang.Thread.sleep']
+231,Can't cast gson to my Object type,['java.util.Arrays.asList']
+232,Using Enum's ordinal value in switch-case statement,['java.lang.Enum.valueOf']
+233,Pass An Array as Argument Having a Different Start Index,['java.util.List.subList']
+234,Test console output using JUnit,['java.lang.System.exit']
+235,Compilaton error when creating a deck of cards,['java.lang.Object.toString']
+236,How to implement a ServiceLocator with generics?,['java.lang.Class.cast']
+237,clear() impl in Java's LinkedList,['java.util.Collections.unmodifiableList']
+238,JMenuItem shortcuts Ctrl-C / Ctrl-V or Ctrl-Insert / Shift-Insert don't work anymore,['javax.swing.SwingUtilities.invokeLater']
+239,Exit Conflicts in Java GUI,"['java.lang.System.exit', 'javax.swing.JFrame.setDefaultCloseOperation', 'java.awt.Window.dispose']"
+240,Java fast atoi using byte[],['java.lang.String.String']
+241,Getting a range of data from infinite time series,['java.util.TreeMap.subMap']
+242,Difference between System.exit(int code) and Runtime.getRuntime().exit(int code),"['java.lang.System.exit', 'java.lang.Runtime.exit', 'java.lang.Runtime.getRuntime']"
+243,Getting wrong output in PreparedStatement,"['java.sql.Statement.executeQuery', 'java.sql.PreparedStatement.executeQuery', 'java.sql.Statement.setMaxRows']"
+244,Removing a part of a string before second /,['java.lang.String.indexOf']
+245,How can I print the average of the lines in this file?,['java.lang.Double.parseDouble']
+246,Why is String.intern() a native method?,['java.lang.String.intern']
+247,How do I pause main() until all other threads have died?,['java.util.concurrent.ExecutorService.invokeAll']
+248,OpenGL ES rendereing error,['java.nio.ByteBuffer.allocateDirect']
+249,Java - Thread safety of ArrayList constructors,['java.lang.System.arraycopy']
+250,Java Math.Pow method,['java.lang.Math.pow']
+251,How to get a caller class of a method,"['java.lang.Thread.getStackTrace', 'java.lang.Thread.currentThread', 'java.lang.Throwable.getStackTrace', 'java.lang.StackTraceElement.getClassName']"
+252,How do I get the array method to give me the correct output?,['java.util.Arrays.copyOfRange']
+253,How to hide cursor in a Swing application?,"['java.awt.Cursor.getDefaultCursor', 'java.awt.Toolkit.createCustomCursor', 'java.lang.System.setProperty']"
+254,Iterable as a return type,['java.util.ArrayList.iterator']
+255,Android if statement - if a string contains any of the strings from an array,['java.util.Arrays.asList']
+256,Immutability of Strings in Java,['java.lang.String.replace']
+257,Apache HttpClient: Limit total calls per second,['java.util.concurrent.ScheduledThreadPoolExecutor.schedule']
+258,Java-8 Stream returned by .map will be parallel or sequential?,"['java.util.stream.IntStream.range', 'java.util.stream.BaseStream.parallel', 'java.util.stream.BaseStream.sequential']"
+259,I don't know why my image is not showing on the frame,['javax.imageio.ImageIO.read']
+260,How to disable 'renaming' a file in java?,['java.lang.Runtime.exec']
+261,Postgresql could not accept SSL connection: sslv3 alert certificate unknown,['java.lang.System.setProperty']
+262,Are these classes thread-safe?,['java.lang.Runnable.run']
+263,Sorting ArrayList<ArrayList<String>> as row fields,['java.util.Collections.sort']
+264,How to convert date and time to est format in android?,['java.util.TimeZone.getTimeZone']
+265,how to set the file path in java,['javax.imageio.ImageIO.write']
+266,How does a Dialog View integrate with its Activity's view Hierarchy,['java.awt.Dialog.show']
+267,Having trouble reading files in java,['java.lang.String.matches']
+268,"java, System.loadlibrary(""someDLLFile"") gets unstatisfied link error","['java.lang.System.loadLibrary', 'java.lang.System.load']"
+269,Overriding JButton paintComponent with transparency not showing back panel color,['javax.swing.SwingUtilities.getWindowAncestor']
+270,Alternative for ZonedDateTime and ChronoUnit to be used in JDK 7,['java.time.temporal.ChronoUnit.SECONDS']
+271,Print 2d String array by column,"['java.util.Arrays.stream', 'java.util.Arrays.sort']"
+272,What should Timertask.scheduleAtFixedRate do if the clock changes?,"['java.util.concurrent.Executors.newScheduledThreadPool', 'java.lang.System.currentTimeMillis', 'java.lang.System.nanoTime']"
+273,How to generate a random permutation in Java?,['java.util.Collections.shuffle']
+274,How to accept null JTextField in java?,['java.lang.Double.parseDouble']
+275,Sort files by name in Java differs from Windows Explorer,['java.util.Arrays.sort']
+276,Java - Ignore case checking user input,['java.lang.String.equalsIgnoreCase']
+277,"How do IDE's ""know"" when an object needs to be in a try/catch block?",['java.sql.DriverManager.getConnection']
+278,Java applet from jar,"['java.lang.ClassLoader.getResource', 'java.lang.Class.getClassLoader']"
+279,How can I sort ResultSet in java?,['java.util.Collections.sort']
+280,Convert string into two dimensional string array in Java,"['java.lang.String.split', 'java.util.Arrays.deepToString', 'java.util.Arrays.deepEquals']"
+281,How can I convert a BufferedImage object into an InputStream or a BLOB?,"['java.awt.image.BufferedImage.getRGB', 'javax.imageio.ImageIO.read', 'javax.imageio.ImageIO.write']"
+282,Getting double values out of a jtable,"['java.lang.Double.parseDouble', 'java.lang.String.valueOf']"
+283,Convert array into array from absolute values only,"['java.lang.Math.sqrt', 'java.lang.Math.abs']"
+284,Java: Retrieving an element from a HashSet,['java.util.Set.iterator']
+285,Using Java reflection to create eval() method,"['java.lang.Class.getDeclaredMethods', 'java.lang.Class.getMethods']"
+286,"Use a for loop to pick single digit numbers, and concatenate them together to form a String in java","['java.lang.Math.random', 'java.lang.Integer.toString']"
+287,How spring JdbcTemplate recognizes data types?,"['java.sql.PreparedStatement.setString', 'java.sql.PreparedStatement.setTimestamp', 'java.sql.PreparedStatement.setObject']"
+288,"If Java's http proxy is down, it reverts to non-proxy",['java.net.ProxySelector.setDefault']
+289,Catching system default editor closing event in java,"['java.lang.Runtime.exec', 'java.lang.Process.waitFor']"
+290,Joda-Time: convert SimpleDateFormat pattern to DateTimeFormat.forPattern,"['java.time.Instant.parse', 'java.time.OffsetDateTime.parse', 'java.sql.Timestamp.from']"
+291,Java 8 reduce BinaryOperator what is used for?,"['java.util.stream.package-summary.Associativity', 'java.util.stream.Stream.reduce']"
+292,Connecting to MongoDb with SSL from JAVA app,['java.lang.System.setProperty']
+293,Set all values of ArrayList<Boolean> to false on instatiation,"['java.util.Collections.fill', 'java.util.Arrays.fill', 'java.util.Collections.nCopies']"
+294,How InputStream's read() method is implemented?,['java.io.InputStream.read']
+295,How can i parse this using StringUtils or Regular Expression,"['java.util.regex.Matcher.group', 'java.util.regex.Pattern.cg']"
+296,how to resolve java.lang.string cannot be cast to java.lang.integer android with xml parser,['java.lang.Integer.parseInt']
+297,How I can make the JTable ignore the enter key?,['javax.swing.KeyStroke.getKeyStroke']
+298,How to sum minutes in array if their format is string?,"['java.lang.Integer.valueOf', 'java.lang.String.split', 'java.lang.Integer.parseInt', 'java.lang.String.substring']"
+299,Why use Long.valueOf(...) rather than a long literal?,['java.lang.Long.valueOf']
+300,How to programmatically test if assertions are enabled?,['java.lang.Class.desiredAssertionStatus']
+301,Loading all images from folder & make named Images from them,['java.io.File.listFiles']
+302,Default Button after dispose and setVisible,"['javax.swing.JButton.removeNotify', 'javax.swing.JComponent.removeNotify']"
+303,Randomize when something happens,['java.util.Random.nextInt']
+304,JDBC returns an empty ResultSet (rs.isBeforeFirst() == true) although the table isn't empty,['java.sql.ResultSet.isBeforeFirst']
+305,Java - Key Events and Key Binds,['java.awt.Frame.getState']
+306,How to list numbers after sorting in java,"['java.util.Collections.reverse', 'java.util.Collections.sort']"
+307,How to reduce the time delay to reach run method of Runnable class using ExecutorService Java,['java.util.concurrent.Executors.newFixedThreadPool']
+308,How to get the dynamic port number in Java for Socket client,['java.net.Socket.getLocalPort']
+309,Java concatenate strings vs static strings,"['java.lang.String.intern', 'java.lang.String.format']"
+310,Java URL with relative address,['java.lang.Class.getResource']
+311,NullPointerException after checking with if statement,['java.lang.Throwable.getStackTrace']
+312,"Java- method which returns generic type needs @SuppressWarnings(""unchecked"") and (T) new Result()","['java.lang.Class.getConstructor', 'java.lang.reflect.Constructor.newInstance']"
+313,Creating Triangle button In Java,"['javax.swing.JComponent.paint', 'javax.swing.JComponent.contains']"
+314,running an external jar using java,['java.lang.Runtime.exec']
+315,What permissions are needed in the manifest file for an applet to communicate via Javascript,['java.security.AccessController.doPrivileged']
+316,"Declaring floats, why default type double?",['java.lang.Math.round']
+317,Is synchronized block always needed with synchronized collections?,['java.util.Collections.synchronizedMap']
+318,Question about a weird Java regex behavior,"['java.util.regex.Matcher.find', 'java.util.regex.Matcher.lookingAt']"
+319,Files.write appending string to text file,['java.lang.System.lineSeparator']
+320,"ruby thread programming , ruby equivalent of java wait/notify/notifyAll",['java.lang.Thread.stop']
+321,Converting an array of objects to an array of their primitive types,"['java.util.stream.IntStream.range', 'java.util.Arrays.asList']"
+322,How to iterate a stream even if exceptions are thrown?,['java.util.concurrent.CompletableFuture.allOf']
+323,What will i write inside my Class.forName if i have jdbc:mysql://localhost:3306,['java.lang.Class.forName']
+324,How can the value of System.out be changed?,['java.lang.reflect.Field.set']
+325,Display the value of swing timer,"['java.lang.String.format', 'java.util.Formatter.syntax']"
+326,Getting familiar with Threads in Java: Why does this program's runtime increase with increasing number of threads,['java.lang.Math.random']
+327,Possible to programmatically format text appended via stringBuffer.append()?,"['java.lang.StringBuilder.insert', 'java.lang.String.format']"
+328,Java string to date conversion,"['java.time.LocalDate.parse', 'java.time.ZonedDateTime.parse', 'java.time.format.DateTimeFormatter.predefined', 'java.time.format.DateTimeFormatter.ofPattern', 'java.time.LocalDateTime.parse', 'java.time.format.DateTimeFormatter.ISO', 'java.util.Locale.getDefault']"
+329,How to get rid of duplicate entries in a comma separated string in java?,['java.util.Arrays.asList']
+330,NullPointer when playing sound on Java,['java.lang.Class.getResource']
+331,Clone() vs Copy constructor- which is recommended in java,['java.lang.Object.clone']
+332,EAR lib's class throwing a ClassNotFoundException for a WAR member (different),['java.lang.Class.forName']
+333,How to add a new line to text in Java?,['javax.swing.JMenuItem.JMenuItem']
+334,A simple Java Race Condition,['java.lang.Thread.sleep']
+335,Programme goes unresponsive at ServerSocket.accept - Java,['javax.swing.SwingUtilities.invokeLater']
+336,Run a Java for a particular amout of time,"['java.lang.System.currentTimeMillis', 'java.lang.System.nanoTime']"
+337,ANR in SurfaceView on specific devices only -- The only fix is a short sleep time,['java.lang.Thread.sleep']
+338,Reading next line in Java,"['java.io.BufferedReader.readLine', 'java.io.ObjectInputStream.readObject']"
+339,Regex Extract Lat and Long from GPGGA String,['java.lang.String.split']
+340,Basic array initialization and sorting question,['java.util.Arrays.sort']
+341,Java: Simply convert a decimal byte to a hexadecimal byte,['java.lang.Integer.toHexString']
+342,Android:converting int to string and passing to methods,"['java.lang.String.valueOf', 'java.lang.Integer.toString']"
+343,"Java starting, stopping and resuming threads","['java.lang.Thread.stop', 'java.lang.Thread.interrupted']"
+344,Files.walk() OS-independency issue,"['java.nio.file.Path.startsWith', 'java.nio.file.Path.getFileName']"
+345,Do different Java Compilers (where the vendor is different) produce different bytecode,['java.io.Serializable.skip']
+346,Java NIO FileChannel versus FileOutputstream performance / usefulness,"['java.lang.Thread.interrupt', 'java.nio.channels.FileChannel.transferTo', 'java.nio.channels.FileChannel.transferFrom']"
+347,Iterator of Object[],"['java.util.Arrays.stream', 'java.util.Arrays.asList']"
+348,How can I compare objects using instanceof but Interface types (not passing exact class name.),['java.lang.Class.isInstance']
+349,Java code to check if event timestamp falls in weekdays and business hours from 9:30 AM to 4:00 PM,"['java.util.TimeZone.setDefault', 'java.util.function.Predicate.test']"
+350,Optimal solution of removing duplicates from an unsorted string,"['java.util.Map.remove', 'java.util.Map.put', 'java.util.Set.add', 'java.util.Set.remove']"
+351,How to pass in initialized HashMap as param?,['java.util.Map.put']
+352,IProxyService.setProxyData affects system properties,['java.lang.System.setProperty']
+353,"JAVA If else process that quits if user input 1 is = 0, doesn't work",['java.lang.System.exit']
+354,How to set a background picture in JPanel,['javax.imageio.ImageIO.read']
+355,"Swing UI Testing Library Comparisons: FEST, WindowTester Pro, etc",['java.awt.Component.setName']
+356,How to call a private method of a class in different package,['java.lang.reflect.Method.invoke']
+357,Date and DateTime handling - A particular scenario fails,"['java.lang.System.currentTimeMillis', 'java.util.Calendar.getInstance']"
+358,syncrhonize access on arrayList,['java.util.Collections.synchronizedList']
+359,Missing @Override in Java Libraries,['java.lang.annotation.RetentionPolicy.SOURCE']
+360,What different sorting algorithms are available in Java 6?,"['java.util.Collections.sort', 'java.util.Arrays.sort']"
+361,Parsing Phone Number without the use of split,['index.java']
+362,How to cancel pending items from a ScheduledThreadPoolExecutor?,"['java.util.concurrent.ScheduledThreadPoolExecutor.shutdownNow', 'java.util.concurrent.ScheduledExecutorService.schedule', 'java.util.concurrent.Future.cancel']"
+363,Timer inside while loop,['java.lang.Thread.sleep']
+364,Many delete queries in single JDBC query,"['java.sql.Statement.addBatch', 'java.sql.Connection.rollback', 'java.sql.Statement.executeBatch']"
+365,How to specify UTC timezone for Spring Boot JPA Timestamp,['java.sql.Timestamp.toLocalDateTime']
+366,Where to put a file to read from a class under a package in java?,"['java.lang.Class.getResource', 'java.lang.System.getProperty']"
+367,Class SubList() must either be called abstract or implement abstract method 'listIterator' in 'List',['java.util.List.listIterator']
+368,How to control the capitalization of month and day names returned by DateFormat?,['java.time.Month.from']
+369,Fixing a nullpointerexception in Java,['java.io.DataOutput.writeUTF']
+370,Will this code run in UI thread?,['javax.swing.SwingUtilities.isEventDispatchThread']
+371,How to retrieve ImageIcon elements from Vector Strings?,"['javax.swing.JLabel.setIcon', 'javax.imageio.ImageIO.read']"
+372,Dynamic classloading using only a String,['java.lang.ClassLoader.findClass']
+373,How to use Java properties file to define objects and set the properties for the object?,['java.lang.Class.forName']
+374,JAVA type mismatch errors when using Class.forName on generics,['java.lang.Class.forName']
+375,Comparing By Value in Java8 returning weird results,['java.util.stream.Collectors.toSet']
+376,"When using Java's FileLock, is it ok to let close() to automatically do a lock.release()?",['java.io.FileInputStream.close']
+377,Draw background region on paper,"['java.awt.print.PrinterJob.pageDialog', 'java.awt.Graphics2D.fill']"
+378,Check if a file is an image,['java.lang.Runtime.exec']
+379,Clarity about Methods and ArrayList,"['java.util.Collection.addAll', 'java.lang.Class.getMethod', 'java.lang.reflect.Method.invoke', 'java.util.Collection.add']"
+380,unlinking copied instance variables in java,['java.lang.System.arraycopy']
+381,No suitable driver found for jdbc?,['java.lang.Class.forName']
+382,How to use Java 7+ 'Objects.hash()' with arrays?,"['java.util.Arrays.hashCode', 'java.util.Objects.hash', 'java.util.Arrays.deepHashCode']"
+383,"How to represent ""&nbsp;"" as a delimiter for Scanner",['java.lang.Character.isWhitespace']
+384,What is System.out exactly?,"['java.lang.System.setErr', 'java.lang.System.setIn', 'java.lang.System.setOut']"
+385,How to compare two URLs in java?,"['java.net.URI.equals', 'java.net.URL.equals']"
+386,System Tray temporary file shutdown hook,"['java.lang.Runtime.addShutdownHook', 'java.io.File.deleteOnExit']"
+387,Empty list: What is the difference between Arrays.asList() and Collections.emptyList()?,"['java.util.Collections.emptyList', 'java.util.Arrays.asList']"
+388,Type mismatch when sorting 2D array,['java.util.Arrays.sort']
+389,How to filter NullString In Java,['java.lang.String.isEmpty']
+390,Copy contents of an int Array to a double Array in Java?,['java.lang.System.arraycopy']
+391,How to print a set of for-looped arrays in a JOptionPane?,['javax.swing.JOptionPane.showMessageDialog']
+392,Java thinks I want to convert char to String using Integer.parseInt(),['java.lang.Integer.parseInt']
+393,Position in array not allowed to be int,['java.lang.String.compareTo']
+394,How to sort List of User-defined type in Java?,['java.util.Collections.sort']
+395,Inject Maven parameter into Java class,['java.util.Properties.load']
+396,Java / parse Object and load its fields into JTree,['java.lang.Class.getDeclaredFields']
+397,Best way to indicate no change on row update with Java PreparedStatement,['java.sql.Connection.prepareStatement']
+398,Delete Files with same Prefix String using Java,"['java.nio.file.Files.list', 'java.io.File.listFiles']"
+399,Immutable Object with ArrayList member variable - why can this variable be changed?,['java.util.Collections.unmodifiableList']
+400,NextInt giving Force close,['java.util.Random.nextInt']
+401,Java list : get next or previous element from an identifier,"['java.util.List.get', 'java.util.List.indexOf']"
+402,Storing number of 1's in binary representation of an int array in another array,['java.lang.Integer.bitCount']
+403,Data lookup method for small data set with Java?,"['java.util.List.equals', 'java.util.Arrays.asList']"
+404,Is there anything wrong with using I/O + ManagedBlocker in Java8 parallelStream()?,"['java.lang.Thread.sleep', 'java.util.stream.IntStream.range']"
+405,Java Arrays.asList(columnes).contains() return false,['java.util.Arrays.asList']
+406,"Method didn't throw UnsupportedOperationException, eventhough it should",['java.util.Arrays.asList']
+407,Any Way To Check For Client Peer Certificate Without Throwing Exception?,['javax.net.ssl.SSLSession.getPeerCertificates']
+408,How do I format a number in Java?,['java.lang.String.format']
+409,What Spring does when it finds two beans with same name?,['java.lang.Class.getMethods']
+410,how to check protocol present in url or not?,"['java.lang.String.startsWith', 'java.net.URL.toString']"
+411,Java scanner nextInt(16) does not accept negative hex values,"['java.util.Scanner.nextInt', 'java.lang.Integer.parseInt']"
+412,ParseInt raises exception when reading numeric output of StringBuffer,"['java.lang.String.replaceAll', 'java.lang.String.trim']"
+413,Is there a way to set the entity expansion limit in woodstox?,['javax.xml.stream.XMLInputFactory.setProperty']
+414,Java charAt() String index out of range: 5,['java.lang.StringBuilder.reverse']
+415,How to make a Java thread wait for another thread's output?,"['java.util.concurrent.Executors.newWorkStealingPool', 'java.util.concurrent.ExecutorService.invokeAll', 'java.util.concurrent.Future.get']"
+416,Is there a way to let the enum return the value without method,['java.lang.String.format']
+417,Is this FrameWork in Java Possible?,['java.util.concurrent.Executors.newScheduledThreadPool']
+418,Why does this throw Concurrent Modification Exception,['java.util.Map.putAll']
+419,URL check resume method in java,['java.net.URLConnection.getHeaderField']
+420,Best Map for interned Strings,"['java.lang.System.identityHashCode', 'java.lang.String.equals', 'java.lang.String.hashCode']"
+421,Calendar : don't allow past timestamp,"['java.time.LocalTime.of', 'java.time.temporal.TemporalAdjusters.next', 'java.time.temporal.TemporalAdjusters.nextOrSame']"
+422,Calendar.MONTH return 2. How to return 02,['java.lang.String.format']
+423,"BigDecimal Method returns vague results, why does this happen?","['java.math.BigDecimal.BigDecimal', 'java.math.BigDecimal.valueOf']"
+424,Merge Date and Time into Timestamp,['java.lang.System.currentTimeMillis']
+425,java.lang.NoSuchMethodError: No interface method sort(Ljava/util/Comparator;) exception in sorting arraylist android,['java.util.Collections.sort']
+426,Each thread should run for 10 minutes and then interrupt the thread if the time is over,"['java.lang.Thread.sleep', 'java.lang.Object.wait', 'java.util.concurrent.ExecutorService.shutdownNow', 'java.lang.Thread.currentThread', 'java.util.concurrent.ExecutorService.awaitTermination']"
+427,Sorting Apps List Android Java,['java.util.Collections.sort']
+428,"Update label on button hit, before calling function",['javax.swing.SwingUtilities.invokeLater']
+429,Do not understand the source code of Arrays.copyOf,"['java.util.Arrays.copyOf', 'java.lang.reflect.Array.newInstance']"
+430,How to make sure user doesn't enter letters,"['java.util.Scanner.hasNextInt', 'java.util.Scanner.hasNext', 'java.lang.Integer.parseInt']"
+431,Which are the source of java to fill system properties,"['java.lang.System.setProperties', 'java.lang.System.getProperty']"
+432,setUncaughtExceptionHandler not working in Maven project,"['java.lang.Thread.currentThread', 'java.lang.ThreadGroup.uncaughtException', 'java.lang.Thread.setDefaultUncaughtExceptionHandler']"
+433,Infinite loop causes OutOfMemoryError: Java heap space,['java.lang.Thread.sleep']
+434,ORA-00928 missing SELECT keyword in oracle,['java.sql.Statement.executeUpdate']
+435,Compile error in JAVA - (<anonymous ListSelectionListener>),['java.util.Arrays.toString']
+436,What determines Java object size?,"['java.lang.System.identityHashCode', 'java.lang.Object.hashCode']"
+437,Java date parsing specific format,"['java.text.DateFormat.setLenient', 'java.util.Locale.ENGLISH']"
+438,Thread does not stopped using flag as volatile,"['java.net.ServerSocket.accept', 'java.lang.Thread.interrupt']"
+439,Simple chat client and chat server,['java.io.ObjectOutputStream.ObjectOutputStream']
+440,Accessing an object class variable in ArrayList (java),"['java.util.List.size', 'java.util.List.contains', 'java.util.List.indexOf', 'java.util.List.set', 'java.util.List.get', 'java.util.List.remove']"
+441,How To Store Values Within JAR \ Java Project,['java.lang.System.getProperty']
+442,java RMI threading system,['java.lang.Object.wait']
+443,Which Way of List Initialize Is Better,['java.util.Collections.unmodifiableList']
+444,"Java, Using a newly-created Text File","['java.lang.Runtime.exec', 'java.io.File.createNewFile']"
+445,extracting values from HashMap,['java.util.Map.values']
+446,When do you use varargs in Java?,['java.lang.String.format']
+447,Validation - Using regex and trim in java Strings,['java.lang.String.replaceAll']
+448,Why doesn't Java throw an Exception when dividing by 0.0?,['java.lang.Double.isNaN']
+449,How can I programmatically find the full path of the main executing class,"['java.lang.Class.getResource', 'java.util.Properties.load', 'java.lang.System.getProperties', 'java.lang.Class.getResourceAsStream']"
+450,scanner class error while producing an output text file,['java.util.Scanner.nextInt']
+451,Java-OOP I keep on getting this strange output,['java.lang.Object.toString']
+452,Joda-time off-by-one error when counting days after 1918-03-24,['java.time.ZoneId.systemDefault']
+453,"ArrayList - get ""Contain"" and ""lastIndexOf"" using String","['java.util.ArrayList.contains', 'java.util.List.lastIndexOf']"
+454,calling Thread.sleep() from synchronized context in Java,"['java.lang.Thread.sleep', 'java.lang.Object.wait']"
+455,"Is this an acceptable ""recursive"" concurrency design",['java.util.concurrent.Executors.newFixedThreadPool']
+456,ScrollBar movement not smooth in JScrollpane in Swing,['javax.swing.JScrollBar.unitIncrement']
+457,Java Vector: clear vs removeAllElements method,"['java.util.Vector.clear', 'java.util.Vector.removeAllElements']"
+458,Java: Thread.currentThread().sleep(x) vs. Thread.sleep(x),"['java.lang.Thread.sleep', 'java.lang.Thread.currentThread', 'java.lang.Class.forName']"
+459,Native code for JUnit tests not compiled with `nar-maven-plugin`,['java.lang.System.loadLibrary']
+460,How does System.out direct output to console in eclipse?,['java.lang.Runtime.getRuntime']
+461,Java 8 Streams int and Integer,['java.util.stream.Stream.of']
+462,DriverManager always returns my custom driver regardless of the connection URL,['java.sql.DriverManager.getConnection']
+463,The best way to transform int[] to List<Integer> in Java?,['java.util.Arrays.asList']
+464,Serializing an object that includes BufferedImages,['javax.imageio.ImageIO.read']
+465,Date format conversion from CST to GMT is not working,['java.util.TimeZone.getTimeZone']
+466,how to set timezone for jvm through command line,"['java.util.TimeZone.setDefault', 'java.time.ZoneId.systemDefault']"
+467,android-sorting of list is not working,['java.util.Collections.sort']
+468,What's the difference between the 2 ways of showing window in Swing?,['java.awt.EventQueue.invokeLater']
+469,Java Applet size behavior vs JFrame size behavior,['javax.swing.SwingUtilities.invokeAndWait']
+470,Determine the size of an InputStream,"['java.io.ByteArrayOutputStream.toByteArray', 'java.io.ByteArrayInputStream.available']"
+471,Is it possible that I get ConcurrentModificationException when all the methods in my program are synchronized?,"['java.util.ListIterator.add', 'java.util.Iterator.remove']"
+472,Deprecated Date methods in Java?,['java.lang.String.split']
+473,Best practise for updating data in a AbstractTableModel in a non AWT thread,['javax.swing.SwingUtilities.invokeLater']
+474,Localized date format in Java,"['java.text.DateFormat.getDateTimeInstance', 'java.text.DateFormat.getDateInstance']"
+475,Thread-safe Map in Java,['java.util.Collections.synchronizedMap']
+476,"Stackoverflow at Arrays.asList(str.split("","")) -> due to wrong recursion",['java.lang.String.split']
+477,Import one node from one document to another,"['org.w3c.dom.Node.appendChild', 'org.w3c.dom.Document.adoptNode']"
+478,Regarding removing elements from an ArrayList,['java.util.List.subList']
+479,Difference between System.getenv() & System.getProperty(),"['java.lang.System.getenv', 'java.lang.System.getProperty']"
+480,Dividing input stream into blocks,"['java.io.File.length', 'org.omg.CORBA.portable.InputStream.read']"
+481,How to produce a good dropdown list of timezones that correspond to java TimeZone(s),['java.util.TimeZone.getAvailableIDs']
+482,How to retrieve useful system information in java?,"['java.lang.System.getProperties', 'java.lang.System.getProperty']"
+483,SWT/JFace equivalent to JComponent.setDefaultLocale()?,"['java.util.Locale.getDefault', 'javax.swing.JComponent.setDefaultLocale']"
+484,Swing MacBook Invalid Display mode,['java.awt.GraphicsDevice.getDisplayModes']
+485,Blowfish encrypt in Java/Scala and decrypt in bash,['javax.crypto.Cipher.init']
+486,Failing to load resource when running java program from command line,"['java.lang.ClassLoader.getResourceAsStream', 'javax.xml.transform.stream.StreamSource.StreamSource']"
+487,Get the Integer from the end of a string (variable length),"['java.lang.Long.parseLong', 'java.lang.Character.isDigit', 'java.lang.Integer.parseInt']"
+488,Read bytes between specific offsets in java,['java.io.InputStream.skip']
+489,"Java, adding elements in an array an concurrently looping through it",['java.util.Collections.synchronizedList']
+490,How interface gets a method with body from Object class?,['java.lang.Object.toString']
+491,"Does creating multiple ""throwaway"" objects affect performance",['java.lang.Double.parseDouble']
+492,Memory leak in my app? Is garbage collection in code a good practice?,['java.lang.System.gc']
+493,Java - How is the return of foo.charAt(i) a reference?,['java.lang.String.charAt']
+494,How can i get sum in java?,"['java.math.BigDecimal.BigDecimal', 'java.lang.Double.parseDouble']"
+495,CANNOT LINK EXECUTABLE error with required libs loaded. How to link them properly?,['java.lang.System.loadLibrary']
+496,replacing all occurance of a substring from a string in java,"['java.lang.String.replace', 'java.lang.String.replaceAll']"
+497,Unix timestamp creation in java,['java.util.Date.getTime']
+498,Getting response of command line in Java,"['java.lang.Process.exitValue', 'java.lang.Process.getOutputStream']"
+499,How to mock the default constructor of the Date class with JMockit?,['java.lang.System.currentTimeMillis']
+500,SAXParseException: value is not a valid value for 'date',['javax.xml.datatype.XMLGregorianCalendar.getXMLSchemaType']
+501,Method reference in Java 8,"['java.util.Comparator.comparing', 'java.util.function.Function.apply']"
+502,Regex Search In Files using Java,['java.util.regex.Pattern.compile']
+503,"How to create a random 16 digits number, with specific first digits?","['java.lang.Math.random', 'java.lang.Integer.parseInt']"
+504,Is there a reason I should call Integer.hashCode()?,"['java.lang.Integer.intValue', 'java.lang.Integer.hashCode']"
+505,How to prevent an Object being cast to a String automatically,"['java.lang.String.concat', 'java.lang.String.valueOf']"
+506,Reading in a text file upto specific number of characters,['java.io.BufferedReader.readLine']
+507,getting data from jcombo box and converting it to float,['javax.swing.JComboBox.getSelectedItem']
+508,JPanel Preferred Size Not Being Set,['java.awt.Container.getPreferredSize']
+509,Passing a value from activity to thread after thread is already created,['java.lang.Thread.sleep']
+510,get date and time format from mac OS x system settings,['java.text.DateFormat.getInstance']
+511,Using string input as boolean,['java.lang.Boolean.parseBoolean']
+512,How to break/pause reading of an image?,"['java.lang.Thread.stop', 'javax.imageio.ImageIO.read']"
+513,Using LinkedList to access a get method,['java.util.LinkedList.get']
+514,KeyListener always gives me an error when trying to add it to my JFrame,['java.awt.Component.addKeyListener']
+515,Java: try(Scanner scan = new Scanner(System.in) { } causing an exception,['java.util.Scanner.close']
+516,Aligning JMenu on the right corner of JMenuBar in Java Swing,['javax.swing.JMenu.setComponentOrientation']
+517,"Renaming photos to ph01, ph02 .. ph99 in java",['java.lang.String.format']
+518,html table td contents parsing using jsoup in android,['java.lang.String.split']
+519,Printing value at array index returns hashcode,"['java.util.Arrays.toString', 'java.util.Arrays.deepToString']"
+520,How to filter JTable with AbstractDataModel?,"['javax.swing.RowFilter.regexFilter', 'javax.swing.RowFilter.notFilter']"
+521,Java regex is working in my system but not in the server,"['java.util.regex.Pattern.compile', 'java.util.regex.Pattern.usc']"
+522,Consecutive Delimiters in StringTokenizer,['java.lang.String.split']
+523,Interrupting a java thread gracefully,"['java.lang.Object.wait', 'java.lang.Object.notify']"
+524,Java FlowLayout - Margin/padding of specific elements?,['java.awt.FlowLayout.FlowLayout']
+525,"Why does ""ImageIO.read(URL input)"" fail on some images on Weblogic 12c?",['javax.imageio.ImageIO.read']
+526,Convert.ToInt32 versus TryParse,"['java.util.regex.Pattern.matches', 'java.lang.Integer.parseInt', 'java.lang.String.matches']"
+527,There's no ObjectFactory with an @XmlElementDecl,['javax.xml.bind.JAXBContext.newInstance']
+528,What is the expected behavior when a Java 8 Stream throw a RuntimeException?,"['java.util.concurrent.ForkJoinPool.commonPool', 'java.util.stream.IntStream.range']"
+529,Calling Linked List class method in Driver class,['java.util.Collections.sort']
+530,Java Method.invoke() throwing IllegalArgumentException: argument type mismatch,['java.lang.reflect.Method.invoke']
+531,Which usage of compareTo method is more understandable?,['java.lang.Boolean.compareTo']
+532,Is it a kind of deadlock in the code?,"['java.lang.Thread.currentThread', 'java.lang.Thread.join']"
+533,Getting location of file as string in resource folder,"['java.lang.ClassLoader.getResourceAsStream', 'java.lang.ClassLoader.getResource', 'java.lang.Class.getResourceAsStream']"
+534,How to average BigDecimals using Streams?,['java.util.List.size']
+535,Good or bad idea: Multiple threads in a multi-user servlet-based web application with Java,['java.util.concurrent.Executors.newFixedThreadPool']
+536,Initializing an ArrayList with an array in a single line,['java.util.Arrays.asList']
+537,Why does Math.sin() delegate to StrictMath.sin()?,"['java.lang.StrictMath.sin', 'java.lang.Math.sin']"
+538,Merging a List of objects containing lists,['java.util.stream.Stream.reduce']
+539,JAVA populate 2D array with user input,['java.lang.Double.parseDouble']
+540,JToggleButton - How to change the color?,['javax.swing.UIManager.put']
+541,Is it bad to have threads waiting in java?,['java.lang.Thread.yield']
+542,How do I make a rectangular grid of small textboxes using Netbeans GUI builder?,['java.awt.GridLayout.GridLayout']
+543,Recursive search function for windows dictornaries. How?,['java.nio.file.Files.walk']
+544,How to find if there is related data?,"['java.sql.DatabaseMetaData.getExportedKeys', 'java.sql.Connection.getMetaData']"
+545,Swing Multithreading. My GUI is freezing,"['java.lang.Thread.sleep', 'java.awt.EventQueue.invokeAndWait']"
+546,ActiveRendering - Drawing on Buffer not working,['java.awt.Graphics.dispose']
+547,Displaying SimpleCaptcha in Struts 2 Form,['java.lang.Math.random']
+548,how to generate a random long with 4 digits in java?,"['java.io.PrintStream.printf', 'java.util.Random.nextInt', 'java.lang.String.format']"
+549,Is Collections.syncronizedList effectively a vector?,['java.util.Collections.synchronizedList']
+550,How to immediately change text of jLabel inside MouseEvent handler?,['java.lang.Thread.sleep']
+551,"Merge Map<String, List<String> Java 8 Stream","['java.util.Map.merge', 'java.util.Map.forEach']"
+552,Switch with arrays method,['java.util.stream.IntStream.of']
+553,"What is an ""internal address"" in Java?",['java.lang.Object.hashCode']
+554,Crash An App using Exception in Android,['java.lang.Thread.setDefaultUncaughtExceptionHandler']
+555,How to display an istanceof an object in an arraylist? (Polymorphism),['java.lang.Object.toString']
+556,Is System.nanoTime() guaranteed to return unique values?,"['java.nio.file.Files.createTempFile', 'java.io.File.createTempFile', 'java.lang.System.nanoTime']"
+557,How to Run a Python file from Java using an Absolute Path?,['java.lang.Runtime.getRuntime']
+558,Reading JPEGs: ImageIO.read() messes up color space,"['java.awt.image.AffineTransformOp.filter', 'javax.imageio.ImageIO.read', 'javax.imageio.ImageIO.write']"
+559,Method to shuffle the members of a class randomly,['java.util.Collections.shuffle']
+560,Should I allocate/create swing elements into EDT?,"['java.awt.EventQueue.invokeLater', 'javax.swing.package-summary.threading']"
+561,Sorting a list of non-comparable elements,['java.util.Collections.sort']
+562,"Calendar object in Java, returns wrong time?",['java.text.DateFormat.parse']
+563,How to get the first non-null value in Java?,['java.util.Optional.ofNullable']
+564,String split after a number and symbol,['java.lang.String.split']
+565,How to return ResultSet in SQL Wrapper class,['java.sql.Statement.close']
+566,How do I resize the JTree row around the TreeCellEditor,"['javax.swing.tree.AbstractLayoutCache.invalidateSizes', 'javax.swing.JTree.getUI']"
+567,How to Use JFileChooser to input CSV filedata into a JTable,['javax.swing.JTable.JTable']
+568,"Optimum time to perform an operation: within, or after loop",['java.lang.Character.isWhitespace']
+569,Java generating Strings with placeholders,['java.lang.String.format']
+570,"Java, what's the difference between == and equals","['java.util.Arrays.equals', 'java.lang.Object.equals']"
+571,Java Regex won't match,['java.util.regex.Pattern.quote']
+572,Why would you catch InterruptedException to call Thread.currentThread.interrupt()?,"['java.lang.Runnable.run', 'java.lang.Thread.interrupt']"
+573,Accessing sub-array and counting an element in arrays in Java,"['java.util.Arrays.stream', 'java.util.Arrays.asList']"
+574,Android string .equals method not working,['java.lang.String.equals']
+575,How to convert xml to .json file in java,['java.lang.Class.getResourceAsStream']
+576,using forEach to iterate over varArgs,['java.util.stream.Stream.of']
+577,server that accepts multiple client - not working,['java.io.BufferedReader.readLine']
+578,Use string matching or boolean flags for performance optimization,['java.lang.String.equals']
+579,Disable menu items programatically,['javax.swing.JMenuItem.setEnabled']
+580,How do i compare values of BigInteger to be used as a condition in a loop?,['java.math.BigInteger.compareTo']
+581,Java: sorting an ArrayList in place,"['java.util.Arrays.sort', 'java.util.Collections.sort']"
+582,Java: console skipping input,"['java.util.Scanner.nextLine', 'java.util.Scanner.nextDouble']"
+583,How can I specify run-time variables in a jar's manifest file?,['java.lang.Class.getResourceAsStream']
+584,Sending 1 MB Buffer of data over Socket in Android,"['java.net.Socket.getOutputStream', 'java.io.PrintWriter.print']"
+585,Java with GSON - deserialize only the values into an ArrayList of a JSON string,"['java.util.ArrayList.ArrayList', 'java.util.Map.values']"
+586,The difference between the Runnable and Callable interfaces in Java,"['java.util.concurrent.Executor.execute', 'java.lang.Runnable.run']"
+587,how to start/stop an application pool in IIS 6.0 from Java remotely,['java.lang.Runtime.exec']
+588,Changing lsb value of image rgb value giving inconsistent value,['java.util.Arrays.copyOf']
+589,"How to replace HashMap<String, Integer> with an array?",['java.util.HashMap.entrySet']
+590,What is ideal size of Fixed Thread pool?,['java.lang.Runtime.availableProcessors']
+591,"Java List , Vector comparison",['java.util.Vector.equals']
+592,Create Swing GUI with vertically stacked sections,['javax.swing.JSplitPane.setDividerLocation']
+593,Creating a stream from scratch or from an Iterator,"['java.util.Spliterators.spliteratorUnknownSize', 'java.util.stream.StreamSupport.stream', 'java.util.regex.Pattern.splitAsStream']"
+594,Common method for comparing any two Java objects,"['java.util.Objects.equals', 'java.lang.reflect.AccessibleObject.setAccessible']"
+595,How are enums internally represented in Java?,['java.lang.Enum.valueOf']
+596,Convert JPanel to binary array,['javax.swing.JComponent.paint']
+597,"Java Serialization of referenced objects is ""losing values""?",['java.io.ObjectOutputStream.reset']
+598,How do I convert lambda parameters to usable objects?,"['java.util.stream.Collectors.collectingAndThen', 'java.util.stream.Collectors.toMap']"
+599,Sorting an array in java with certain conditions,"['java.util.Collections.sort', 'java.util.Arrays.sort']"
+600,GUID in JAVA can Contain Space?,['java.util.UUID.toString']
+601,Hashmap internal flow while getting Value,"['java.lang.Object.equals', 'java.lang.String.equals']"
+602,How change background color of JFrame,"['java.awt.EventQueue.invokeLater', 'javax.swing.SwingUtilities.invokeLater']"
+603,Why does SimpleDateFormat parse incorrect date?,['java.text.DateFormat.setLenient']
+604,"Java Regex Matcher works, but String.split() doesn't",['java.lang.String.split']
+605,java.lang.ClassCastException: java.math.BigInteger cannot be cast to java.lang.Long,['java.math.BigInteger.longValue']
+606,setCellRenderer() not working,"['javax.swing.JTable.setAutoCreateColumnsFromModel', 'javax.swing.table.AbstractTableModel.fireTableStructureChanged', 'javax.swing.JTable.setModel']"
+607,Remove first white space in Java,"['java.lang.String.trim', 'java.lang.Character.isWhitespace', 'java.lang.String.replaceFirst', 'java.lang.String.substring']"
+608,How to find the largest power of 2 less than the given number,"['java.math.BigInteger.valueOf', 'java.lang.Integer.highestOneBit']"
+609,Trying to create a hash table in java using string as key & double as value,['java.util.Collections.synchronizedMap']
+610,how to add logo to qr codes,['java.awt.Image.getGraphics']
+611,How to catch all checked exceptions (in a single block) in Java?,['javax.swing.SwingUtilities.invokeLater']
+612,Array and reified type,['java.lang.reflect.Array.newInstance']
+613,What is the difference between Streams and Collections in Java 8,['java.util.stream.package-summary.package']
+614,How to get start and end date of a year?,['java.util.Calendar.getActualMaximum']
+615,How to wait for completion of multiple tasks in Java?,"['java.util.stream.Stream.of', 'java.util.concurrent.CountDownLatch.await']"
+616,What is the difference between ArrayList.clear() and ArrayList.removeAll()?,['java.util.ArrayList.clear']
+617,Adding integers to Multiplication Table,['java.lang.Integer.parseInt']
+618,How to convert Map to List in Java 8,"['java.util.stream.Collectors.toList', 'java.util.Map.Entry.comparingByValue', 'java.util.Comparator.comparing', 'java.util.stream.Stream.map']"
+619,Using Collections to sort values,['java.util.Collections.sort']
+620,Java - Sorting an array,['java.util.Arrays.sort']
+621,How to get sorted paged map by couple conditions using java 8 streams,['java.util.TreeSet.headSet']
+622,Java how to read folder and list files in that folder in jar environment instead of IDE,['java.lang.ClassLoader.getResourceAsStream']
+623,How to pass a stack into a method,['java.lang.Float.parseFloat']
+624,Difference between getClass().getClassLoader().getResource() and getClass.getResource()?,"['java.lang.Class.getResource', 'java.lang.Thread.currentThread', 'java.lang.ClassLoader.getResource']"
+625,for each in blocking collection,['java.util.concurrent.LinkedBlockingQueue.iterator']
+626,How to execute OCaml code from Scala/Java?,['java.lang.Runtime.exec']
+627,Different types of thread-safe Sets in Java,['java.util.Collections.synchronizedSet']
+628,Malicious code running AccessController.doPrivileged,['java.security.AccessController.doPrivileged']
+629,Why does the Streams API need a hint for generic type in this case?,['java.util.stream.Stream.collect']
+630,How reading data into char array works?,['java.io.Reader.read']
+631,Loading Constants from db and reading them in an include file,['java.lang.System.currentTimeMillis']
+632,Java: Using Try/Catch Exception to check if user input is Double,['java.util.Scanner.hasNextDouble']
+633,how to create a logic method that finds minimum number,['java.lang.Math.ceil']
+634,Interrupting thread which is blocked waiting on IO from socket?,"['java.lang.Thread.isInterrupted', 'java.lang.Thread.interrupt']"
+635,what does this [] syntax mean?,['java.lang.String.split']
+636,int arrays to json object in java,"['java.lang.Object.toString', 'java.util.Arrays.toString']"
+637,"What could cause String.charAt(0) to print nothing, and be of character type ""16""?","['java.lang.Character.DIRECTIONALITY', 'java.lang.Character.getName']"
+638,How can I achieve the safe read/write concurrency on an ArrayList?,['java.util.Collections.synchronizedList']
+639,How do I convert CamelCase into human-readable names in Java?,['java.lang.String.format']
+640,StringTokenizer issues with if statements,['java.lang.String.matches']
+641,"Scanner ignoring the String ""name""","['java.util.Scanner.nextInt', 'java.util.Scanner.nextLine', 'java.lang.Integer.parseInt']"
+642,Access static final variable using reflection,['java.lang.reflect.Field.get']
+643,I am trying to replace a BufferedImage in my code with an animated gif,['javax.imageio.ImageIO.read']
+644,TargetDataLine and Xuggler to record audio with a video of the screen,['javax.sound.sampled.DataLine.getMicrosecondPosition']
+645,ByteArrayOutputStream is not set properly,['javax.imageio.ImageIO.write']
+646,Uncompilable code-illegal start of expression,['java.lang.Math.pow']
+647,JTextField - changing caret position on focusLost event,['javax.swing.SwingUtilities.invokeLater']
+648,How to escape certain characters in java,['java.util.regex.Pattern.quote']
+649,FilesAlreadyExistsException when using Files.copy() on File.createTempFile(),['java.io.File.createTempFile']
+650,Getting XML Node text value with Java DOM,"['org.w3c.dom.Node.getNodeValue', 'org.w3c.dom.Node.getFirstChild']"
+651,Java library for reading database schema,['java.sql.Connection.getMetaData']
+652,"DateTimeFormatter can parse, but not format for same input","['java.time.temporal.ChronoField.YEAR', 'java.time.format.DateTimeFormatter.patterns']"
+653,How to trim white space from all elements in array?,"['java.util.Arrays.stream', 'java.util.Arrays.parallelSetAll']"
+654,Finding the largest positive int in an array by recursion,['java.lang.Math.min']
+655,Does the list returned from Arrays.asList maintain the same order as the original array collection?,['java.util.Arrays.asList']
+656,Order of PriorityQueue not as expected,['java.util.stream.Stream.generate']
+657,CompletableFuture: Unhandled exception type ExecutionException,['index.java']
+658,Java multi thread problem .join(),"['java.lang.Thread.start', 'java.lang.Thread.run']"
+659,ConcurrentModificationException even with using Collections.sychronizedMap on a LinkedHashMap,['java.util.Collections.synchronizedMap']
+660,How to escape special characters in the regex ***(.*),['java.util.regex.Pattern.quote']
+661,JDK java.util.concurrent.ConcurrentSkipListSet.equals(Object o) implementation efficiency,"['java.util.concurrent.ConcurrentSkipListSet.size', 'java.util.Set.contains', 'java.util.Comparator.compare', 'java.util.Arrays.asList', 'java.util.Collections.unmodifiableSet', 'java.util.Set.equals']"
+662,"How to copy values, not references, of List<Integer> into another list?",['java.util.Collections.copy']
+663,What's wrong with Collections.sort?,"['java.lang.String.format', 'java.util.Collections.sort']"
+664,Java - match specific URL in string,['java.util.regex.Pattern.quote']
+665,Sonar complains : use StringBuilder instead of StringBuffer,['index.java']
+666,How to best store a list of primitive values?,['java.lang.Number.doubleValue']
+667,looping throug List and deleting not working,['java.util.Iterator.remove']
+668,How comes .array() doesn't work on ByteBuffers returned from map'ed FileChannels?,"['java.nio.channels.FileChannel.map', 'java.nio.ByteBuffer.array']"
+669,Behavior of SELECT query using executeUpdate,['java.sql.Statement.executeUpdate']
+670,Java Collections sort() equal objects,['java.util.Collections.sort']
+671,Java Runtime.exec() arguments on Linux,"['java.lang.Runtime.exec', 'java.lang.Runtime.getRuntime']"
+672,How to get next month start date and end date if current month is february?,['java.time.LocalDate.parse']
+673,Future timeout and IO timout,"['java.lang.Thread.interrupted', 'java.util.concurrent.Future.get']"
+674,copying two vectors java,['java.util.Collections.copy']
+675,Collections.emptyList() instead of null check?,['java.util.Collections.emptyList']
+676,How to get this Method object via reflection?,['java.lang.Class.forName']
+677,How to get the number of lines from a jtextpane,['javax.swing.text.Utilities.getRowStart']
+678,How to place an XML file in form of a String inside Java file,['java.lang.Class.getResourceAsStream']
+679,Change colors for JProgressBar with Nimbus?,['javax.swing.UIManager.put']
+680,Is that thread safe to cache objects in static list,['java.util.Collections.unmodifiableList']
+681,"To prevent a memory leak, the JDBC Driver has been forcibly unregistered","['java.sql.DriverManager.registerDriver', 'java.sql.DriverManager.getDrivers', 'java.sql.DriverManager.deregisterDriver']"
+682,DataInputStream deprecated readLine() method,"['java.io.BufferedReader.readLine', 'java.lang.System.console', 'java.util.Scanner.nextLine', 'java.io.Console.readLine']"
+683,How to check if an element in a string array is empty?,"['java.util.stream.Stream.of', 'java.util.Collections.disjoint', 'java.util.Arrays.asList']"
+684,"How to write a hashtable<string, string > in to text file,java?",['java.util.Hashtable.entrySet']
+685,Comparison between variables pointing to same Integer object,['java.lang.Integer.valueOf']
+686,I can't iterate through TreeSet,['java.util.TreeSet.TreeSet']
+687,Convert char[] to byte[] without losing 'bits',"['java.lang.String.String', 'java.lang.String.getBytes']"
+688,Insert element into a double array,['java.lang.System.arraycopy']
+689,Update JProgressBar from new Thread,['javax.swing.SwingUtilities.invokeLater']
+690,Error getting file name using getServletConfig,['java.io.File.separator']
+691,Objects will not appear in the java applet when drawn. How am I supposed to properly use the paint/repaint methods in AWT?,['java.lang.Thread.sleep']
+692,Java's FutureTask composability,['java.util.concurrent.FutureTask.get']
+693,meaning of description for constructor of property class,"['java.util.Hashtable.putAll', 'java.util.Properties.store']"
+694,the correct exception for my program,['java.lang.Integer.parseInt']
+695,How do I implement Objects.hashcode within java 1.6,['java.util.Objects.hashCode']
+696,How to measure the a time-span in seconds using System.currentTimeMillis()?,['java.time.Instant.now']
+697,What's the cause of this strange Java behavior?,['java.lang.Long.valueOf']
+698,Search multiple HashMaps at the same time,['java.util.stream.Stream.reduce']
+699,Not getting expected output while using Countdownlatch and Executor in java,"['java.util.concurrent.ExecutorService.awaitTermination', 'java.util.concurrent.Executors.newSingleThreadExecutor']"
+700,Reason for java.lang.ArrayIndexOutOfBoundsException,['java.util.Stack.pop']
+701,Java Runtime.getRuntime().exec() fails after calling it several hundred times,"['java.io.File.listFiles', 'java.lang.Runtime.getRuntime']"
+702,Pin encryption 4 digit number to hexadecimal,"['java.lang.Integer.valueOf', 'java.lang.String.valueOf']"
+703,Learning the nested while loop in Java,['java.util.Random.nextInt']
+704,Format numbers under 100 with a 0 in front,['java.lang.String.format']
+705,draw a line of known distance along a known angle,"['java.lang.Math.cos', 'java.lang.Math.toRadians', 'java.lang.Math.toDegrees', 'java.lang.Math.sin']"
+706,JavaFx 8 - A class that has a border than you're able to color and able to have text in the middle of it,['javafx.scene.doc-files.cssref.typecolor']
+707,GUI changes with RadioButton Selection,['java.awt.CardLayout.show']
+708,List of all invalid operations that throw an ArithmeticException() in Java?,"['java.lang.Math.subtractExact', 'java.math.BigDecimal.ROUND', 'java.lang.Math.toIntExact', 'java.math.BigDecimal.divide', 'java.lang.Math.negateExact', 'java.lang.Math.multiplyExact', 'java.lang.Math.incrementExact', 'java.lang.Math.decrementExact', 'java.lang.Math.floorDiv', 'java.lang.Math.addExact', 'java.lang.Math.floorMod']"
+709,JSplitPane propertyChange event in Swing,['javax.swing.SwingUtilities.invokeLater']
+710,Using multiple voids in Java,['java.lang.Thread.sleep']
+711,java Serialize Object to ByteArray,['java.io.OutputStream.write']
+712,java.lang.IllegalStateException when updating JComboBox with setModel()?,['javax.swing.SwingUtilities.invokeLater']
+713,Making loop more efficient,['java.util.Collections.binarySearch']
+714,Run C++ program using Java,['java.lang.Runtime.exec']
+715,Strange Movement Using Rotation,"['java.lang.Math.toRadians', 'java.lang.Math.cos', 'java.lang.Math.acos', 'java.lang.Math.asin', 'java.lang.Math.sin', 'java.lang.Math.atan2', 'java.lang.Math.atan']"
+716,How do I use Java to read from a file that is actively being written to?,['java.nio.channels.FileChannel.read']
+717,Is volatile keyword extraneous for non-primitive values in Java?,['java.util.concurrent.package-summary.MemoryVisibility']
+718,"Java Optional<T> questions, am I doing this right?","['java.util.Optional.flatMap', 'java.util.Optional.ifPresent', 'java.util.Optional.map']"
+719,"(java) Quick sort to sort a number-char pair by number first, then char",['java.util.Arrays.sort']
+720,Java Regex - Extract PID from ps command,['java.util.regex.Matcher.find']
+721,How to compare generic type member of generic classin java,['java.lang.Comparable.compareTo']
+722,Show JFrame in a specific screen in dual monitor configuration,['java.awt.Toolkit.getScreenSize']
+723,HashSet showing more values,['java.util.HashSet.remove']
+724,CommandLine Arguments in java Help,"['java.lang.Double.parseDouble', 'java.lang.Integer.parseInt']"
+725,Java Array Bound Exception,"['java.util.Arrays.binarySearch', 'java.util.Arrays.sort']"
+726,ImageIcon Not Displaying in java,"['java.lang.Class.getResource', 'java.lang.Thread.sleep']"
+727,"Sort the Object's value inside the Hashmap<String, Object>",['java.util.Map.entrySet']
+728,How to use a relative path instead of an absolute path in processing?,['java.io.File.File']
+729,How to make a messagebox like JPopupMenu?,"['java.awt.Frame.setUndecorated', 'javax.swing.JOptionPane.showOptionDialog']"
+730,Why does the same command work in a bash script but not in Java Runtime directly?,"['java.lang.Runtime.exec', 'java.lang.Runtime.getRuntime']"
+731,Differentiate string and new string stored in different memory,"['java.lang.System.identityHashCode', 'java.lang.String.hashCode']"
+732,"Converting date to milliseconds, givse wrong result",['java.util.Calendar.set']
+733,How to make a decision without an if statement,"['java.lang.Math.max', 'java.lang.Math.min']"
+734,How to check the date and timestamp is before 20mins,['java.time.Instant.now']
+735,Performance of Random UUID generation with Java 7 or Java 6,['java.util.UUID.randomUUID']
+736,Convert Java Timestamp to MySQL timestamp vice versa,"['java.sql.ResultSet.getTimestamp', 'java.sql.PreparedStatement.setTimestamp']"
+737,at android.os.AsyncTask$3.done(AsyncTask.java:300),['javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier']
+738,What is the difference between connection and read timeout for sockets?,['java.lang.Thread.interrupt']
+739,How many threads should I create in my case?,"['java.util.concurrent.Executors.newCachedThreadPool', 'java.util.concurrent.Executors.newFixedThreadPool']"
+740,How to get a return value from a method when the method contains multiple if statements with multiple returns?,['java.lang.Double.parseDouble']
+741,Android currency format returning different currency symbol,['java.text.NumberFormat.getCurrencyInstance']
+742,JavaFX problems with multiple windows,['java.lang.Class.getResource']
+743,Java replace character with a string in a string,['java.lang.String.replace']
+744,Java 8 Generic use of Stream.collect(),['java.util.stream.Collectors.toMap']
+745,Converting array of characters to arraylist of characters,['java.util.Arrays.asList']
+746,How to read multiple lines using FileReader only?,"['java.io.InputStreamReader.read', 'java.io.Reader.read']"
+747,throws x extends Exception method signature,"['java.util.stream.Stream.map', 'java.util.Optional.orElseThrow']"
+748,JavaFX TabPane disable tab switching by keys,['javafx.scene.Node.focusTraversableProperty']
+749,Code to tell whether a string is a Pangram or not?,"['java.util.Scanner.nextLine', 'java.util.Scanner.next']"
+750,Java: how to implement `toArray` for `Collection`,['java.util.Collection.toArray']
+751,How can I go about getting the parent directory of a directory,['java.io.File.getParent']
+752,Java reading and writing objects to a file,"['java.nio.file.Files.delete', 'java.io.File.delete']"
+753,Array in the reverse order,['java.util.Collections.reverse']
+754,how to print only certain letters,['java.util.Set.retainAll']
+755,"Type mismatch, cannot convert from void to char[]","['java.util.Arrays.equals', 'java.util.Arrays.deepToString', 'java.util.Arrays.sort']"
+756,Merging two sorted list of different types (String and Integer) in Java using Lambda,['java.util.Comparator.comparingInt']
+757,How to add numbers from a sequence that contains numbers and letters in java?,"['java.lang.String.split', 'java.lang.Integer.parseInt']"
+758,DataInputStream for input text files?,"['java.lang.Double.parseDouble', 'java.lang.System.exit']"
+759,Java - Try/Catch NumberFormatException uses a former value?,['java.lang.Double.parseDouble']
+760,Prepared Statement Primary Key store seed 1 and increment,['java.sql.PreparedStatement.setString']
+761,Java throwing org.openqa.selenium.remote.UnreachableBrowserException even though Gecko driver is used,['java.lang.System.setProperty']
+762,Getting the EXACT coords of Mouse in Java,"['java.awt.event.MouseEvent.getYOnScreen', 'java.awt.event.MouseEvent.getXOnScreen']"
+763,Arrays.asList issue when computing square root of integer array elements,['java.util.Arrays.asList']
+764,How to sort Integer Vector using Comparator and iterator?,"['java.util.Arrays.sort', 'java.util.Collections.sort']"
+765,How to get current date with custom hour?,['java.util.Calendar.getInstance']
+766,How to draw an image on the applet,['java.applet.Applet.getCodeBase']
+767,Random XML Layout on button click,['java.lang.Math.random']
+768,"Using ""Predefined character classes"" on a substring",['java.lang.String.replaceAll']
+769,how to insert data type date(yyyy-MM-dd) in sqlite database and retrive data between two dates in android,"['java.text.DateFormat.format', 'java.text.SimpleDateFormat.parse']"
+770,Why is SimpleDateFormat not parsing my date correctly?,['java.text.DateFormat.format']
+771,Java: ArrayList<String> sorting using comparators (ArrayLists doesn't store objects),['java.util.Collections.sort']
+772,Java: Getting a substring from a string starting after a particular character,['java.lang.String.split']
+773,Checking for a null date before converting to java.sql.date from java.util.date,['java.util.Date.getTime']
+774,Java append text and save file continously,['java.io.BufferedWriter.flush']
+775,How to get 2 counts based on two different values in list and check the two counts are equal or not?,['java.util.stream.Collectors.groupingBy']
+776,java.lang.NumberFormatException for converting string to long,"['java.lang.Long.parseLong', 'java.lang.Double.parseDouble', 'java.lang.Math.round']"
+777,How to make a pause before continuing method,['java.lang.Thread.sleep']
+778,Improper use of foreach in java?,['java.util.Iterator.remove']
+779,Decoding URI query string in Java,"['java.net.URLDecoder.URLDecoder', 'java.net.URLDecoder.decode']"
+780,How to specify test classpath in Eclipse,['java.lang.Thread.currentThread']
+781,Collect Linux command output,['java.lang.Process.getInputStream']
+782,Print a number which is out of long range,['java.util.Scanner.nextLong']
+783,instantiating Two arrays from two text files,['java.util.Arrays.asList']
+784,"File copy/move methods and approaches explanation, comparison","['java.io.File.renameTo', 'java.nio.file.Files.copy', 'java.nio.file.Files.move']"
+785,Sorting shapes method error,['java.lang.Comparable.compareTo']
+786,Unreachable code + how to go through all combinations,['java.lang.Double.compare']
+787,How to ignore a domain that has already been visited? Java | Jsoup,['java.net.URL.getHost']
+788,"I'm getting ""Value is not a valid option"" for SelectManyCheckBox ",['java.lang.Object.equals']
+789,Webpage data scraping using Java,['java.lang.Integer.parseInt']
+790,Arraylist.sort asking for a comparator,['java.util.List.sort']
+791,optimizing java 8 stream operations,"['java.util.Map.merge', 'java.util.stream.Collectors.groupingBy', 'java.util.stream.Collectors.toMap']"
+792,How to pass array of string and a string as a vararg?,"['java.util.Collections.copy', 'java.util.Arrays.asList']"
+793,Complexity of Set operations,"['java.util.ArrayList.retainAll', 'java.util.ArrayList.add']"
+794,Can I use an enhanced for loop to print two dimensional arrays?,['java.util.Arrays.deepToString']
+795,android - how to get an exception's class and method name within which it occurred,"['java.lang.StackTraceElement.getMethodName', 'java.lang.StackTraceElement.getClassName']"
+796,Replace the legacy Stack with what from Java Collections?,['java.util.Collections.asLifoQueue']
+797,Counting Occurrences With An Array - Java,['java.util.Random.nextInt']
+798,Number of subfolders in a folder directory,['java.nio.file.Files.find']
+799,Sort Java Stream like switch conditional,['java.util.List.indexOf']
+800,What is the default MessageFactory for Log4J,['java.util.logging.LogManager.getLogger']
+801,`null` is treated as String?,"['java.lang.String.concat', 'java.lang.String.valueOf']"
+802,In the context of Java Servlet what is the difference between URL Rewriting and Forwarding?,['java.net.URLEncoder.encode']
+803,How do I copy ArrayList<T> in java multi-threaded environment?,['java.util.Collections.unmodifiableList']
+804,Converting from Windows 1252 to UTF8 in Java: null characters with CharsetDecoder/Encoder,['java.nio.ByteBuffer.array']
+805,using UTF-8 characters in JAVA variable-names,"['java.lang.Character.isLetter', 'java.lang.Character.isDigit']"
+806,Java's Swing Threading,['java.awt.EventQueue.invokeLater']
+807,Enforcing the implementer of an interface to be an enum,['java.util.Collections.unmodifiableSet']
+808,How to make a Predicate from a custom list of Predicates in Java?,"['java.util.stream.Stream.reduce', 'java.util.function.Predicate.and']"
+809,Creating an array of generic collections,['java.lang.reflect.Array.newInstance']
+810,shell script not executing completely from java,"['java.lang.ProcessBuilder.redirect', 'java.lang.Process.getInputStream', 'java.lang.Process.getErrorStream', 'java.lang.ProcessBuilder.inheritIO', 'java.lang.ProcessBuilder.start', 'java.lang.Process.getOutputStream']"
+811,Why doesn't my code show presentValue?,['java.lang.Math.pow']
+812,How to get words average length using Lambda Expression,"['java.util.stream.IntStream.average', 'java.util.stream.Stream.flatMap', 'java.util.stream.Stream.mapToInt']"
+813,How I can replace default calendar of Android OS?,['java.util.Calendar.getInstance']
+814,Exit from Java Callable if Exception occured,['java.util.concurrent.Callable.call']
+815,Get Java to use tabs instead of spaces for indenting,['javax.xml.transform.Transformer.transform']
+816,Why is List.remove overloaded the way it is?,"['java.util.Collection.add', 'java.util.Collection.remove', 'java.util.Vector.removeElement', 'java.util.Vector.elementAt', 'java.util.Vector.addElement', 'java.util.List.get', 'java.util.Vector.removeElementAt', 'java.util.Iterator.hasNext', 'java.util.Enumeration.hasMoreElements', 'java.util.List.remove']"
+817,About the Java interface and polymorphism,['java.util.Arrays.asList']
+818,(Java) Specify number of bits (length) when converting binary number to string?,"['java.lang.String.format', 'java.lang.Integer.toBinaryString']"
+819,How to use timer class,['java.lang.System.currentTimeMillis']
+820,how to remove last symbols?,['index.java']
+821,Dynamically changing the column header text in JTable,"['javax.swing.table.DefaultTableModel.setColumnIdentifiers', 'javax.swing.table.DefaultTableModel.getColumnName', 'javax.swing.table.DefaultTableModel.getColumnCount']"
+822,Reading in data and exceptions,['java.lang.String.split']
+823,is it possible to define execution order for a set of threads in java,['java.util.concurrent.CompletableFuture.runAsync']
+824,JAVA: parseInt problems,"['java.lang.Character.getNumericValue', 'java.lang.Integer.parseInt']"
+825,Mergesort Implementation.. Counting number of inversions in an array,['java.lang.Integer.parseInt']
+826,Running multiple regex patterns on String,"['java.lang.String.join', 'java.util.regex.Pattern.quote']"
+827,How to call a method in parallel which returns the future?,['java.util.concurrent.ExecutorService.invokeAll']
+828,How to handle jodatime Illegal instant due to time zone offset transition,['java.time.LocalDate.parse']
+829,Is there a way to use replaceAll on string but call method for replacing the text on each occurrence of a match,['java.util.regex.Matcher.appendReplacement']
+830,Replace number at end of each sequence,['java.util.regex.Pattern.quote']
+831,How to configure freebase java client to connect through a proxy?,['java.lang.System.setProperty']
+832,Converting JOptionPane input to integer,['java.lang.Integer.parseInt']
+833,Get subSet of set by using comparator,['java.util.NavigableSet.subSet']
+834,java.io.FileNotFoundException when reading .csv file,['java.lang.Class.getResourceAsStream']
+835,how to extract an element of JTextArea,"['javax.swing.text.Utilities.getRowStart', 'javax.swing.text.Utilities.getRowEnd', 'javax.swing.JTextArea.getLineStartOffset']"
+836,JmDNS service not found in ZeroConf browser,"['java.net.NetworkInterface.getNetworkInterfaces', 'java.net.InetAddress.getLocalHost']"
+837,Microphone Streaming is Not Clear,['java.net.DatagramSocket.receive']
+838,Login form validation in android,['java.sql.ResultSet.getString']
+839,Get last day of Month,"['java.time.YearMonth.of', 'java.time.LocalDate.toString', 'java.util.Locale.US', 'java.time.format.DateTimeFormatter.ofPattern']"
+840,How do I remove an element from a hashtable using its value and not the key?,"['java.util.Map.entrySet', 'java.util.Iterator.remove']"
+841,Retrieve all Indexes for a given Table with JDBC,"['java.sql.DatabaseMetaData.getPrimaryKeys', 'java.sql.DatabaseMetaData.getIndexInfo']"
+842,Why does this String.equals() not work?,['java.lang.String.String']
+843,Using the Oracle database parser from Java using JDBC,['java.sql.PreparedStatement.executeQuery']
+844,Remove leading zero and delimiter char for BigDecimal,['java.math.BigDecimal.unscaledValue']
+845,Java Formatter class toString() doesn't work,"['java.lang.Object.toString', 'java.lang.Object.hashCode', 'java.util.Formatter.toString', 'java.lang.String.format']"
+846,How to iterate through ArrayList of objects?,['java.util.ArrayList.get']
+847,Runtime.exec getting killed by System.exit?,"['java.lang.Runtime.getRuntime', 'java.lang.Process.waitFor']"
+848,Converting a year and day (e.g. 2013216 = the 216th day of 2013) into a full date in Java,"['java.text.SimpleDateFormat.format', 'java.text.SimpleDateFormat.parse']"
+849,Timezones in SQL DATE vs java.sql.Date,['java.sql.ResultSet.getDate']
+850,Run code for x seconds in Java?,"['java.lang.Thread.sleep', 'java.lang.System.nanoTime']"
+851,Confusion with Java Time parsing UTC,"['java.time.Instant.parse', 'java.time.ZoneId.systemDefault']"
+852,How to rotate a line based on a given number of degrees,['java.awt.geom.AffineTransform.getRotateInstance']
+853,Java: Sorting Method Critique,"['java.util.ArrayList.set', 'java.util.Collections.sort']"
+854,Collection - Iterator.remove() vs Collection.remove(),"['java.util.Iterator.remove', 'java.util.Collection.remove']"
+855,DefaultStyledDocument.styleChanged(Style style) may not run in a timely manner?,['javax.swing.event.DocumentListener.changedUpdate']
+856,Java Case insensitive when including a dot,['java.lang.String.equalsIgnoreCase']
+857,Memory allocation for an Exception,['java.lang.System.gc']
+858,IP Address not obtained in java,"['java.net.NetworkInterface.getByName', 'java.net.NetworkInterface.getNetworkInterfaces']"
+859,how to Manually shuffle the array list,"['java.util.Collections.sort', 'java.util.Collections.shuffle']"
+860,Print duplicicate string in text files,['java.util.Set.add']
+861,Java AtomicReferenceFieldUpdater - ClassCastException when using generic types,['java.util.concurrent.atomic.AtomicReferenceFieldUpdater.newUpdater']
+862,Cant seem to figure out sorting an array of objects in java,['java.util.Arrays.sort']
+863,How to sort a csv file on a field that contains double data type value on Java?,['java.util.Collections.sort']
+864,parsing xml data form the internet,['java.lang.Class.newInstance']
+865,How to check if thread is terminated?,['java.lang.Thread.getState']
+866,JScrollPane acting wierd inside a JTextArea,"['java.awt.EventQueue.invokeLater', 'javax.swing.SwingUtilities.invokeLater']"
+867,"What's the equivalent to a .NET SortedDictionary, in Java?",['java.util.TreeMap.keySet']
+868,Understanding tostring() method ?,['java.io.PrintStream.print']
+869,Java Sax to parse complex large XML file,['org.xml.sax.XMLReader.setContentHandler']
+870,"Read file by word, Scanner",['java.lang.String.split']
+871,Why isn't this gui updating?,['java.awt.Window.pack']
+872,Convert CharSequence to BigDecimal,['java.lang.CharSequence.toString']
+873,Cannot Serialize/Deserialize ArrayList,['java.io.ByteArrayOutputStream.toString']
+874,Java using instanceof but based on method argument,"['java.lang.Class.isInstance', 'java.util.stream.Stream.count']"
+875,Getting the name of the currently executing method,"['java.lang.Thread.getStackTrace', 'java.lang.Thread.currentThread', 'java.lang.Throwable.getStackTrace', 'java.lang.invoke.MethodHandles.lookup']"
+876,How do I sort a custom ArrayList in Java?,['java.util.Collections.sort']
+877,Background a task then end connection before task completion in Java (8),"['java.util.concurrent.BlockingQueue.add', 'java.util.concurrent.BlockingQueue.take']"
+878,Create Calendars for 3 years,"['java.util.Calendar.DATE', 'java.util.Calendar.add']"
+879,java does for loop COPY the object?,['java.util.Iterator.next']
+880,Is there a better (faster) way to divide a number to digits?,['java.lang.Integer.toString']
+881,Rounding int to 1 decimal place?,['java.lang.String.valueOf']
+882,how to monitor the close event of a JDialog?,['java.lang.System.exit']
+883,Understanding the code execution path for given code,['java.util.concurrent.Executors.newFixedThreadPool']
+884,Number of words preceding a particular word,['java.lang.String.split']
+885,Need to get highest and lowest value without array,['java.lang.Math.max']
+886,The expressions which evaluate to a boolean value can not be concatenated with a String in Java. Why?,['java.lang.String.valueOf']
+887,How to compare a new time duration with a stored duration and replace with the shorter of the two?,"['java.lang.System.currentTimeMillis', 'java.lang.String.format']"
+888,What is the difference between getFields and getDeclaredFields in Java reflection,['java.lang.Class.getDeclaredField']
+889,What is the most efficient List-Type for Java parallelStream?,"['java.util.stream.Collectors.toList', 'java.util.LinkedList.add', 'java.util.LinkedList.addAll', 'java.util.Arrays.asList']"
+890,Issue i am facing with dateFormat.parse(string)?,"['java.sql.Timestamp.toString', 'java.util.Date.toString']"
+891,Sort files by date created before showing it in the app,['java.nio.file.Files.newDirectoryStream']
+892,regular expression goes into infinite loop,['java.lang.String.matches']
+893,Conversion of string numbers into comma seperated string numbers in Android,['java.text.NumberFormat.getNumberInstance']
+894,is Java SocketChannel write(ByteBuffer source) in Android different in windows?,['java.nio.channels.WritableByteChannel.write']
+895,Utility of Future.cancel(boolean) method,['java.util.concurrent.Future.cancel']
+896,How to sort Alphanumeric String,"['java.lang.String.compareTo', 'java.util.Collections.sort']"
+897,Different Enter and mouse click event,['java.awt.event.KeyEvent.KEY']
+898,"Why would "".contains"" return false for objects pulled directly from a collection?",['java.lang.Object.equals']
+899,How to subtract X days from a date using Java calendar?,"['java.time.LocalDate.now', 'java.util.Calendar.add']"
+900,Encoding problem from database to javamail,['java.sql.ResultSet.getString']
+901,"Calendar.getInstance(TimeZone.getTimeZone(""UTC"")) is not returning UTC time","['java.text.DateFormat.setTimeZone', 'java.util.TimeZone.setDefault']"
+902,finding maximum number in ArrayList,['java.util.Collections.max']
+903,JAI save byte[] to .tiff file,['java.awt.Graphics.drawBytes']
+904,When use a static class instead of the singleton pattern?,['java.util.Collections.sort']
+905,"What exactly is "".class"" in Java Source Code",['java.lang.Class.getDeclaredField']
+906,How is really the Java time in millis means?,['java.time.Instant.now']
+907,Reading a file of txt to be fed into an array,['java.lang.Byte.parseByte']
+908,Java ExecutorService pause/resume a specific thread,['java.lang.Thread.currentThread']
+909,Retrieve XSL URL and name in XML file using Java,['javax.xml.transform.TransformerFactory.getAssociatedStylesheet']
+910,"Do specialized Optional types (OptionalInt, OptionalDouble, etc) perform a heap allocation?",['java.lang.Integer.valueOf']
+911,Guava.Objects.hashCode vs Java.Objects.hashCode,['java.util.Objects.hashCode']
+912,Add days and time to Calender object,['java.sql.Timestamp.Timestamp']
+913,Two equal strings return false when compared with .equals(),['java.lang.String.endsWith']
+914,Exporting Runnable jar loses directory structure,['java.lang.ClassLoader.getResource']
+915,Any better solution to ListenKey anywhere inside the frame?,"['javax.swing.JComponent.WHEN', 'javax.swing.KeyStroke.getKeyStroke']"
+916,Generic text resource inside jar query?,['java.lang.ClassLoader.getResourceAsStream']
+917,JDBC: Inserting Date values into MySQL,"['java.sql.PreparedStatement.setTime', 'java.sql.PreparedStatement.setTimestamp', 'java.sql.PreparedStatement.setDate']"
+918,"What does forName() method in the Class class do, when loading jdbc:odbc driver?","['java.lang.Class.forName', 'java.sql.DriverManager.getConnection']"
+919,While loop checking for integer in Scanner activates twice on second run-through,['java.util.Scanner.next']
+920,how to connect multiple databases on a single server with JDBC?,['java.sql.Connection.setCatalog']
+921,How to parse an ISO date with LocalDateTime.parse(...),['java.time.LocalDate.parse']
+922,How to use the threads from a thread pool for every httprequest in java?,['java.util.concurrent.Executors.newFixedThreadPool']
+923,Java Reflections error: Wrong number of arguments,['java.lang.reflect.Constructor.newInstance']
+924,Joda time's DateTime converted to java.util.Date strange issue,['java.util.Date.toString']
+925,Why is this loop only running once,['java.util.ArrayList.remove']
+926,java.net.MalformedURLException: Protocol not found: but file exists,['javax.xml.parsers.DocumentBuilder.parse']
+927,Replace everything after last forward slash,['java.util.regex.Matcher.replaceFirst']
+928,Java HttpURLConnection | POST method | Sequence of HTTP header fields,['java.lang.System.setProperty']
+929,How do I change JPanel inside a JFrame on the fly?,"['javax.swing.JComponent.revalidate', 'java.awt.Component.repaint']"
+930,LinkedHashSet iteration not in ascending order?,['java.util.Arrays.sort']
+931,Can a Java server accept both SSL and plaintext connections on one port?,"['javax.net.ssl.SSLSocket.setUseClientMode', 'javax.net.ssl.SSLSocketFactory.createSocket']"
+932,"Use Hashtable, Vector or HashMap or ArrayList in Java",['java.util.Collections.synchronizedList']
+933,Use of java.math.MathContext,"['java.math.BigDecimal.setScale', 'java.math.BigDecimal.round']"
+934,"What would cause a NullPointerException when running a JAR from the command line, but not from an IDE?",['java.lang.ClassLoader.getResourceAsStream']
+935,How can I change the date format in Java?,['java.time.LocalDate.parse']
+936,The method write(int) in the type BufferedWriter is not applicable for the arguments (Long),['java.lang.String.valueOf']
+937,How to invoke Nashorns `ScriptFunction` callback from Java?,['nashorn.jdk.nashorn.api.scripting.JSObject.call']
+938,Make an Object[] from a ResultSet (for a JOptionPane dialog),['javax.swing.JOptionPane.showInputDialog']
+939,Instantiating a generic class in Java,['java.lang.Class.forName']
+940,Java GUI - storing input/calculations into txt tile,"['java.lang.String.valueOf', 'java.io.Writer.append']"
+941,File reader not reading correct values,['java.io.BufferedReader.read']
+942,Java ID3 calculating entropy,['java.lang.Math.log']
+943,JUnit4 test causes java.text.ParseException: Unparseable date,"['java.text.SimpleDateFormat.rfc', 'java.text.SimpleDateFormat.iso']"
+944,Convert a Queue to List,['java.util.ArrayList.ArrayList']
+945,URL to load resources from the classpath in Java,"['java.net.URL.URL', 'java.lang.Thread.currentThread', 'java.net.URI.create', 'java.net.URL.setURLStreamHandlerFactory']"
+946,how to change the value of a dynamic arrays in java during runtime?,['java.util.Arrays.copyOf']
+947,Optimal way of creating a fixed size thread pool in Java using the Executors service,['java.util.concurrent.Executors.newFixedThreadPool']
+948,When should a class be Comparable and/or Comparator?,['java.util.Collections.sort']
+949,Create a map from a list of maps,"['java.util.stream.Collectors.toList', 'java.util.stream.Collectors.groupingBy']"
+950,How to fix this java.io.FileNotFoundException?,['java.lang.Class.getResourceAsStream']
+951,Does Java have a function that lexicographically orders lists (not their elements)?,['java.util.Collections.sort']
+952,Why is my android application skipping frames when Thread.sleep is called?,['java.lang.Thread.sleep']
+953,Sort an ArrayList based on Integer,['java.util.Collections.sort']
+954,Placing null at the end of the List,['java.util.Collections.sort']
+955,Does ArrayList.clear() method frees memory?,['java.util.ArrayList.trimToSize']
+956,Android Format calendar to output time,['java.util.Calendar.get']
+957,getting environment variable's value in java?,"['java.lang.System.getenv', 'java.lang.System.getProperty']"
+958,"Why does split(""."") fail? java",['java.lang.String.split']
+959,Is it possible to get the full http request inside the handler method of HttpServer.createContext?,['java.net.URI.getQuery']
+960,Java - Get array of name of day for current week,"['java.time.LocalDate.now', 'java.time.DayOfWeek.getDisplayName']"
+961,String Array for Java,"['java.util.Arrays.toString', 'java.util.stream.Stream.of', 'java.lang.String.split']"
+962,How to use formatted strings together with placeholders in Android?,['java.lang.String.format']
+963,How do you determine if an insert or update was successful using Java and MySQL?,"['java.sql.PreparedStatement.executeUpdate', 'java.sql.PreparedStatement.addBatch', 'java.sql.Statement.executeBatch']"
+964,How do I declare Java enums in Frege native declarations?,['java.lang.Class.getName']
+965,How ensure if java program uses UTF-8 encoding,['java.lang.System.getProperty']
+966,Assigning file filled with number values to a 2D array of JLabels,['java.lang.String.valueOf']
+967,What is the security risk of object reflection?,['java.lang.reflect.AccessibleObject.setAccessible']
+968,java: Close connection after all threads have terminated,"['java.lang.Runtime.addShutdownHook', 'java.lang.Thread.join']"
+969,Is it possible to create a java.lang.Process instance for a process I did not start?,"['java.lang.ProcessBuilder.start', 'java.lang.Runtime.exec']"
+970,Java RMI: how to make client stub method called on server print message on client screen?,['java.rmi.registry.Registry.lookup']
+971,Java Convert integer to hex integer,['java.lang.Integer.toHexString']
+972,What is parametric polymorphism in Java (with example)?,['java.util.Collections.sort']
+973,Checking an int within range,['java.lang.Math.abs']
+974,Scanning letters and floats using the java scanner,['java.lang.Float.parseFloat']
+975,Is there a way to restrict CPU usage to a percentage during runtime for JVM or Dalvik?,['java.lang.Thread.sleep']
+976,"Java - map.get don't work, but element is in map?",['java.util.Map.get']
+977,Java Trident Library and Thread.sleep(),['java.lang.Thread.sleep']
+978,Faster way to split a string in java then add to an ArrayList,['java.util.regex.Pattern.split']
+979,How to delete Java Loggers,['java.lang.System.gc']
+980,Can I use the classpath to override a file in a jar that is being run?,['java.lang.ClassLoader.getResource']
+981,Java fileinputstream using with url,['java.net.URL.openStream']
+982,split java dashed string,['java.lang.String.split']
+983,Type casting a Number to double,['java.lang.Number.doubleValue']
+984,parallel processing with infinite stream in Java,"['java.util.stream.Stream.iterate', 'java.util.stream.Stream.distinct']"
+985,Java8 stream reducing list of objects with fluent API,['java.util.stream.Stream.reduce']
+986,Why do we not get the ordered sequence in HashSet,['java.util.Set.iterator']
+987,I am getting NullPointerException inside Consumer,['java.util.concurrent.PriorityBlockingQueue.poll']
+988,Error when try to parse String to Double,"['java.lang.Double.parseDouble', 'java.lang.String.split']"
+989,get static initialization block to run in a java without loading the class,['java.lang.Class.forName']
+990,How do I wait for Threads to complete execution in Java?,"['java.lang.Thread.join', 'java.util.concurrent.Future.get']"
+991,Is it safe to use Vector in java?,['java.util.Collections.synchronizedList']
+992,Java- How to initialize rows dynamically on JTable?,['javax.swing.JTable.setValueAt']
+993,How to sort an ArrayList in Java,['java.util.Collections.sort']
+994,referencing configuration.properties outside of the .war,"['java.lang.System.getenv', 'java.lang.System.getProperty']"
+995,how to order Arrays value as circular format in java?,['java.util.Collections.rotate']
+996,Why does this file not get deleted?,"['java.nio.file.Files.delete', 'java.io.File.createTempFile', 'java.io.File.delete']"
+997,Java Swing redraw delay,['java.lang.Thread.sleep']
+998,How to detect if a number is greater than Long.MAX value,['java.math.BigInteger.longValueExact']
+999,"In Java, how to pass the objects back to Main thread from worker threads?",['java.util.concurrent.ExecutorService.invokeAll']

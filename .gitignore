@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Data files
+src/iocapi/get_top_k_q/data/*
+!src/iocapi/get_top_k_q/data/.gitkeep
