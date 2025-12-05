@@ -35,12 +35,12 @@
 #### 3. Execution
 
 1. Interactive Mode.
-   ```python
+   ```bash
     python dialog.py
    ```
 
 2. RQ Mode.
-   ```python
+   ```bash
     python rq.py
    ```
 

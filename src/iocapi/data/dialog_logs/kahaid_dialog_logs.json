@@ -1,0 +1,331 @@
+[
+    {
+        "query": "Swap the first element of the array with the last element, swap the second element with the second-to-last element, and so on.",
+        "round_log": [
+            {
+                "round": 1,
+                "question": "What do you want to do?",
+                "chooses": {
+                    "append element": "19182",
+                    "copy array": "9883",
+                    "find subsequence of the input sequence": "23095",
+                    "insert element": "19128",
+                    "remove order": "48417",
+                    "reset matcher": "23098",
+                    "return doublestream": "19676",
+                    "return element": "19177",
+                    "return index of the last occurrence of the specified element": "19194",
+                    "return intstream": "19668",
+                    "return longstream": "19672",
+                    "return number of elements": "12304",
+                    "return size list": "19488",
+                    "return stream": "20",
+                    "return view of the specified list": "19890",
+                    "reverse order": "48415",
+                    "rotate elements": "19950",
+                    "scan token of the input": "20669",
+                    "sort array": "19609",
+                    "sort array of objects": "19626",
+                    "sort list": "19209",
+                    "sort range of the array": "19612",
+                    "sort range of the specified array of objects": "19630",
+                    "swap elements": "19967"
+                },
+                "choose_size": 24,
+                "user_choose": "swap elements"
+            }
+        ],
+        "apis": [
+            "java.util.Collections.swap(java.util.List<?>,int,int)"
+        ]
+    },
+    {
+        "query": "16 bit hex string to signed int in Java",
+        "round_log": [
+            {
+                "round": 1,
+                "question": "What do you want to do?",
+                "chooses": {
+                    "convert argument": "7774",
+                    "convert array of bytes": "8780",
+                    "decode string": "3782",
+                    "parse string argument": "8520",
+                    "return instance": "8524",
+                    "return number of bits": "5844",
+                    "return object": "70",
+                    "return string": "263",
+                    "return string object": "1891",
+                    "return string representation of a specific subarray of the char array argument": "9730",
+                    "return string representation of the argument": "9064",
+                    "return string representation of the boolean argument": "9733",
+                    "return string representation of the char argument": "9736",
+                    "return string representation of the char array argument": "9727",
+                    "return string representation of the double argument": "8905",
+                    "return string representation of the first argument": "9056",
+                    "return string representation of the float argument": "8970",
+                    "return string representation of the int argument": "9739",
+                    "return string representation of the integer argument": "9047",
+                    "return string representation of the long argument": "9119",
+                    "return string representation of the object argument": "9724",
+                    "return string representation of this biginteger": "11215",
+                    "return value of the first argument": "9244",
+                    "write byte": "7598"
+                },
+                "choose_size": 24,
+                "user_choose": "parse string argument"
+            },
+            {
+                "round": 2,
+                "question": "which one are you interested in parse string argument",
+                "chooses": {
+                    "as boolean": "2004",
+                    "as decimal": "9104",
+                    "as decimal byte": "8545",
+                    "as signed": "9102",
+                    "into byte": "6626",
+                    "into integer": "770",
+                    "into long": "6636",
+                    "into short": "6631"
+                },
+                "choose_size": 8,
+                "user_choose": "into integer"
+            },
+            {
+                "round": 3,
+                "question": "Where the event parse string argument will be done?",
+                "chooses": {
+                    "in the radix specified by the second argument": "9025",
+                    "specified by the second argument": "9028",
+                    "None of the above": "8520"
+                },
+                "choose_size": 3,
+                "user_choose": "None of the above"
+            }
+        ],
+        "apis": [
+            "java.lang.Integer.parseInt(java.lang.String)",
+            "java.lang.Integer.parseUnsignedInt(java.lang.String)"
+        ]
+    },
+    {
+        "query": "Java string align to right",
+        "round_log": [
+            {
+                "round": 1,
+                "question": "What kind of the string do you want?",
+                "chooses": {
+                    "formatted": "7729",
+                    "independent": "14186",
+                    "informative": "8756",
+                    "line": "23181",
+                    "new": "511",
+                    "readable": "12869",
+                    "short": "7063",
+                    "suitable": "12045",
+                    "None of the above": "262"
+                },
+                "choose_size": 9,
+                "user_choose": "formatted"
+            }
+        ],
+        "apis": [
+            "java.security.cert.TrustAnchor.toString()",
+            "java.lang.String.format(java.lang.String,java.lang.Object)",
+            "java.lang.String.format(java.util.Locale,java.lang.String,java.lang.Object)",
+            "java.security.cert.PKIXParameters.toString()",
+            "java.security.AlgorithmParametersSpi.engineToString()",
+            "java.security.AlgorithmParameters.toString()",
+            "java.lang.String.format(java.lang.String,java.lang.Object...)",
+            "java.security.cert.PKIXBuilderParameters.toString()",
+            "java.security.cert.LDAPCertStoreParameters.toString()",
+            "java.security.cert.CollectionCertStoreParameters.toString()",
+            "java.lang.String.format(java.util.Locale,java.lang.String,java.lang.Object...)"
+        ]
+    },
+    {
+        "query": "How to get file size in Java",
+        "round_log": [
+            {
+                "round": 1,
+                "question": "What do you want to do?",
+                "chooses": {
+                    "copy file": "13112",
+                    "create directory": "7864",
+                    "create file": "7802",
+                    "determine character representation": "8594",
+                    "open directory": "13078",
+                    "read byte of data": "7582",
+                    "read bytes of data": "7751",
+                    "read line of text": "7527",
+                    "replace substring of this string": "9702",
+                    "return array of abstract pathnames": "7856",
+                    "return array of strings": "7852",
+                    "return double": "8897",
+                    "return height of the bufferedimage": "5708",
+                    "return input stream": "8814",
+                    "return int value": "8604",
+                    "return length of the file": "7849",
+                    "return stream": "20",
+                    "return value of the content length header field": "12116",
+                    "return width of the bufferedimage": "5752",
+                    "sort list": "19209",
+                    "test whether the file or directory denoted by this abstract pathname exists.": "48336",
+                    "walk file tree": "13215",
+                    "write image": "24800"
+                },
+                "choose_size": 23,
+                "user_choose": "return length of the file"
+            }
+        ],
+        "apis": [
+            "java.io.File.length()"
+        ]
+    },
+    {
+        "query": "How do you crash a JVM",
+        "round_log": [
+            {
+                "round": 1,
+                "question": "What do you want to do?",
+                "chooses": {
+                    "cause thread": "9321",
+                    "close socket": "11450",
+                    "determine system properties": "9902",
+                    "die thread": "9984",
+                    "execute action": "21216",
+                    "get system property": "9904",
+                    "get value of the default locale": "20288",
+                    "interrupt thread": "9979",
+                    "kill subprocess": "9356",
+                    "pass to machine": "10570",
+                    "register machine shutdown hook": "9429",
+                    "return bean": "7188",
+                    "return reference": "6720",
+                    "run garbage collector": "9459",
+                    "set default locale": "20348",
+                    "set source": "9383",
+                    "submit batch of commands": "16713",
+                    "terminate machine": "9449"
+                },
+                "choose_size": 18,
+                "user_choose": "interrupt thread"
+            },
+            {
+                "round": 2,
+                "question": "What kind of the thread do you want?",
+                "chooses": {
+                    "current": "121",
+                    "None of the above": "9308"
+                },
+                "choose_size": 2,
+                "user_choose": "current"
+            }
+        ],
+        "apis": [
+            "java.lang.Thread.interrupted()"
+        ]
+    },
+    {
+        "query": "Pick a number randomly from two numbers",
+        "round_log": [
+            {
+                "round": 1,
+                "question": "What do you want to do?",
+                "chooses": {
+                    "parse string argument": "8520",
+                    "permute list": "19954",
+                    "return pseudorandom": "20565",
+                    "return size list": "19488",
+                    "return string": "263",
+                    "return string representation of the contents of the specified array": "19680",
+                    "return string representation of the object": "7076",
+                    "return threadlocalrandom": "21851",
+                    "return time": "10749",
+                    "return value": "498",
+                    "return value mapping": "19259",
+                    "return value of resolution time source": "9924",
+                    "return value of the first argument": "9244",
+                    "write string": "7547"
+                },
+                "choose_size": 14,
+                "user_choose": "return pseudorandom"
+            },
+            {
+                "round": 2,
+                "question": "What is the form of the results of return pseudorandom?",
+                "chooses": {
+                    "uniformly distributed long value from this random number generator 's sequence": "20576",
+                    "None of the above": "20565"
+                },
+                "choose_size": 2,
+                "user_choose": "None of the above"
+            },
+            {
+                "round": 3,
+                "question": "which one are you interested in return pseudorandom",
+                "chooses": {
+                    "as sequence": "8480",
+                    "None of the above": "20565"
+                },
+                "choose_size": 2,
+                "user_choose": "None of the above"
+            }
+        ],
+        "apis": [
+            "java.util.Random.nextFloat()",
+            "java.util.Random.nextInt()",
+            "java.security.SecureRandom.nextInt()",
+            "java.util.Random.nextDouble()",
+            "java.util.Random.nextGaussian()"
+        ]
+    },
+    {
+        "query": "How to check if a string contains all the letters of the alphabet?",
+        "round_log": [
+            {
+                "round": 1,
+                "question": "What do you want to do?",
+                "chooses": {
+                    "begin substring of this string": "9712",
+                    "compare string": "9661",
+                    "compile expression": "23153",
+                    "convert string": "771",
+                    "end string": "9665",
+                    "find subsequence of the input sequence": "23095",
+                    "match expression": "9696",
+                    "parse date time string": "17146",
+                    "parse string argument": "8520",
+                    "replace substring of this string": "9702",
+                    "reset matcher": "23098",
+                    "return double": "8897",
+                    "return index": "8635",
+                    "return length of this string": "9693",
+                    "return pattern string": "17460",
+                    "return size list": "19488",
+                    "return true": "48291",
+                    "sort array": "19609",
+                    "sort array of objects": "19626",
+                    "sort list": "19209",
+                    "sort range of the array": "19612",
+                    "sort range of the specified array of objects": "19630",
+                    "start string": "9715"
+                },
+                "choose_size": 23,
+                "user_choose": "return true"
+            },
+            {
+                "round": 2,
+                "question": "Under which condition can return true?",
+                "chooses": {
+                    "if and only if this string contains the specified sequence of char values": "48292",
+                    "if the string is empty or contains only white space codepoints,otherwise false.": "48300"
+                },
+                "choose_size": 2,
+                "user_choose": "if and only if this string contains the specified sequence of char values"
+            }
+        ],
+        "apis": [
+            "java.lang.String.contains(java.lang.CharSequence)"
+        ]
+    }
+]
